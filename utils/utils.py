@@ -289,7 +289,6 @@ async def summarize_text_with_genai(text: str) -> str:
 
 async def export_loot_csv(interaction: discord.Interaction, fields: str = "*", where_clause: Optional[str] = ""):
     """SQL Query from the database, convert to CSV, and send as a file."""
-    await interaction.response.defer(thinking=True)
     async with aiosqlite.connect("dnd_bot.db") as db:
         if where_clause:
             cursor = await db.execute(f"""

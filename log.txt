@@ -29,3 +29,16 @@ Fetched latest log entry summary.N/A
 Fetched player log from Campaign Logger API.
 Generated summary with Google GenAI.N/A
 Fetched latest log entry summary.N/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Loot search by loot_name: Wraiththorn Scrolls 1SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scrolls 1%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%a%'
+Loot search by loot_name: aSELECT * FROM party_loot WHERE name LIKE '%a%'
+Loot search by loot_name: Wraiththorn Scrolls 3SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scrolls 3%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 3%'
+Loot search by loot_name: Wraiththorn Scroll 3SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 3%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Loot search by loot_name: Wraiththorn Scroll 1SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'

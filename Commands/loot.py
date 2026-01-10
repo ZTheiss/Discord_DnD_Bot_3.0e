@@ -11,15 +11,16 @@ from utils.variables import *
 # --- Loot Management Commands ---
 
 
-class LootCommands(commands.Cog):
+class LootCommands(commands.GroupCog, name="loot"):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name="all_loot", description="Display all items in the loot database")
-    async def all_loot(self, interaction: discord.Interaction):
+    @app_commands.command(name="all", description="Display all items in the loot database")
+    async def loot_all(self, interaction: discord.Interaction):
+        await interaction.response.defer(ephemeral=True, thinking=True)
         await export_loot_csv(interaction, "*")
 
-    @app_commands.command(name="loot_search", description="Display all items in the loot database")
+    @app_commands.command(name="search", description="Display all items in the loot database")
     @app_commands.describe(category="Category to search by", name="Name of the selection")
     @app_commands.choices(category=[
         app_commands.Choice(name="Name", value="loot_name"),
@@ -30,6 +31,7 @@ class LootCommands(commands.Cog):
     ])
     @app_commands.autocomplete(name=name_autocomplete)
     async def loot_search(self, interaction: discord.Interaction, category: app_commands.Choice[str], name: str):
+        await interaction.response.defer(ephemeral=True, thinking=True)
         if category.value == "loot_name":
             where_clause = f"name LIKE '%{name}%'"
         elif category.value == "loot_category":
@@ -43,11 +45,11 @@ class LootCommands(commands.Cog):
         await export_loot_csv(interaction, "*", where_clause)
         log_discord_bot_activity(f"Loot search by {category.value}: ", name, f"SELECT * FROM party_loot WHERE {where_clause}")
 
-    @app_commands.command(name="assign_loot", description="Assign loot to a player")
+    @app_commands.command(name="assign", description="Assign loot to a player")
     @app_commands.describe(loot_name="Name of the item", name="Name of the player")
     @app_commands.autocomplete(loot_name=json_to_autocomplete(loot_name))
     @app_commands.autocomplete(name=json_to_autocomplete(loot_owner))
-    async def assign_loot(self, interaction: discord.Interaction, loot_name: str, name: str):
+    async def loot_assign(self, interaction: discord.Interaction, loot_name: str, name: str):
         async with aiosqlite.connect("dnd_bot.db") as db:
             cursor = await db.execute("""
                 UPDATE party_loot
@@ -61,10 +63,10 @@ class LootCommands(commands.Cog):
             else:
                 await interaction.response.send_message(f"❌ No loot found named **{loot_name}**.")
 
-    @app_commands.command(name="unassign_loot", description="Unassign loot from a player")
+    @app_commands.command(name="unassign", description="Unassign loot from a player")
     @app_commands.describe(loot_name="Name of the item")
     @app_commands.autocomplete(loot_name=json_to_autocomplete(loot_name))
-    async def unassign_loot(self, interaction: discord.Interaction, loot_name: str):
+    async def loot_unassign(self, interaction: discord.Interaction, loot_name: str):
         async with aiosqlite.connect("dnd_bot.db") as db:
             cursor = await db.execute("""
                 UPDATE party_loot
@@ -78,10 +80,10 @@ class LootCommands(commands.Cog):
             else:
                 await interaction.response.send_message(f"❌ No loot found named **{loot_name}**.")
 
-    @app_commands.command(name="remove_loot", description="Remove loot from the database")
+    @app_commands.command(name="remove", description="Remove loot from the database")
     @app_commands.describe(loot_name="Name of the item")
     @app_commands.autocomplete(loot_name=json_to_autocomplete(loot_name))
-    async def remove_loot(self, interaction: discord.Interaction, loot_name: str):
+    async def loot_remove(self, interaction: discord.Interaction, loot_name: str):
         async with aiosqlite.connect("dnd_bot.db") as db:
             cursor = await db.execute("""
                 DELETE FROM party_loot
@@ -94,10 +96,10 @@ class LootCommands(commands.Cog):
             else:
                 await interaction.response.send_message(f"❌ No loot found named **{loot_name}**.")
 
-    @app_commands.command(name="add_loot", description="Add loot to the database")
+    @app_commands.command(name="add", description="Add loot to the database")
     @app_commands.describe(loot_name="Name of the item")
     @app_commands.autocomplete(loot_name=json_to_autocomplete(loot_name))
-    async def add_loot(self, interaction: discord.Interaction, loot_name: str):
+    async def loot_add(self, interaction: discord.Interaction, loot_name: str):
         async with aiosqlite.connect("dnd_bot.db") as db:
             cursor = await db.execute("""
                 INSERT INTO party_loot (name)
@@ -110,9 +112,9 @@ class LootCommands(commands.Cog):
             else:
                 await interaction.response.send_message(f"❌ Failed to add loot **{loot_name}**.")
             
-    @app_commands.command(name="upload_loot", description="Upload a JSON file to import loot")
+    @app_commands.command(name="upload", description="Upload a JSON file to import loot")
     @app_commands.describe(file="Upload a JSON file")
-    async def upload_loot(self, interaction: discord.Interaction, file: discord.Attachment):
+    async def loot_upload(self, interaction: discord.Interaction, file: discord.Attachment):
         if not file.filename.lower().endswith(".json") or not file.filename.lower().endswith(".txt"):
             await interaction.response.send_message("❌ Please upload a `.json` or `.txt` file.")
             return
