@@ -1,0 +1,594 @@
+{
+  "Alertness": {
+    "name": "Alertness",
+    "description": "You gain a +2 bonus on Listen and Spot checks.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on Listen and Spot checks.",
+    "special": null,
+    "page": 80
+  },
+  "Ambidexterity": {
+    "name": "Ambidexterity",
+    "description": "You can fight with either hand without penalty.",
+    "prerequisites": "Dex 15+",
+    "benefits": "You suffer no penalties when fighting with your off-hand.",
+    "special": null,
+    "page": 80
+  },
+  "Armor Proficiency (Light)": {
+    "name": "Armor Proficiency (Light)",
+    "description": "You are proficient with light armor and suffer no penalties for wearing it.",
+    "prerequisites": null,
+    "benefits": "Proficient with light armor.",
+    "special": null,
+    "page": 80
+  },
+  "Armor Proficiency (Medium)": {
+    "name": "Armor Proficiency (Medium)",
+    "description": "You are proficient with medium armor and suffer no penalties for wearing it.",
+    "prerequisites": "Armor Proficiency (Light)",
+    "benefits": "Proficient with medium armor.",
+    "special": null,
+    "page": 80
+  },
+  "Armor Proficiency (Heavy)": {
+    "name": "Armor Proficiency (Heavy)",
+    "description": "You are proficient with heavy armor and suffer no penalties for wearing it.",
+    "prerequisites": "Armor Proficiency (Light)",
+    "benefits": "Proficient with heavy armor.",
+    "special": null,
+    "page": 80
+  },
+  "Blind-Fight": {
+    "name": "Blind-Fight",
+    "description": "You fight with a heightened awareness of your surroundings, even if you cannot see your enemy.",
+    "prerequisites": null,
+    "benefits": "You ignore concealment and get a +2 bonus on opposed Acrobatics checks to move in melee.",
+    "special": null,
+    "page": 80
+  },
+  "Combat Casting": {
+    "name": "Combat Casting",
+    "description": "You are trained to cast spells while on the defensive.",
+    "prerequisites": null,
+    "benefits": "+4 bonus on Concentration checks made to cast a spell or use a spell-like ability when casting defensively or while grappled.",
+    "special": null,
+    "page": 80
+  },
+  "Combat Reflexes": {
+    "name": "Combat Reflexes",
+    "description": "You can react quickly to threats and make additional attacks of opportunity.",
+    "prerequisites": null,
+    "benefits": "You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus.",
+    "special": null,
+    "page": 80
+  },
+  "Dodge": {
+    "name": "Dodge",
+    "description": "You are skilled at avoiding attacks.",
+    "prerequisites": "Dex 13+",
+    "benefits": "+1 dodge bonus to AC against attacks from a designated opponent.",
+    "special": null,
+    "page": 81
+  },
+  "Mobility": {
+    "name": "Mobility",
+    "description": "You are skilled at moving through threatened areas without provoking attacks of opportunity.",
+    "prerequisites": "Dex 13+, Dodge",
+    "benefits": "+4 dodge bonus to AC against attacks of opportunity caused when you move out of or within a threatened area.",
+    "special": null,
+    "page": 83
+  },
+  "Spring Attack": {
+    "name": "Spring Attack",
+    "description": "You can move both before and after making a melee attack.",
+    "prerequisites": "Dex 13+, Dodge, Mobility, Base attack bonus +4 or higher",
+    "benefits": "You can move up to your speed, make a single melee attack, and then continue moving without provoking attacks of opportunity.",
+    "special": null,
+    "page": 84
+  },
+  "Endurance": {
+    "name": "Endurance",
+    "description": "You are tough and hardy.",
+    "prerequisites": null,
+    "benefits": "+4 bonus on checks related to forced marches, heat or cold exposure, starvation, and thirst.",
+    "special": null,
+    "page": 82
+  },
+  "Exotic Weapon Proficiency": {
+    "name": "Exotic Weapon Proficiency",
+    "description": "You are proficient with an exotic weapon of your choice.",
+    "prerequisites": "Base attack bonus +1 or higher",
+    "benefits": "Proficient with a chosen exotic weapon.",
+    "special": "Can be taken multiple times for different weapons.",
+    "page": 82
+  },
+  "Expertise": {
+    "name": "Expertise",
+    "description": "You gain specialized training in a weapon, improving your combat skills with it.",
+    "prerequisites": "Int 13+",
+    "benefits": "Choose one weapon; you get a +1 bonus on attack and damage rolls with it.",
+    "special": "Can be taken multiple times for different weapons.",
+    "page": 82
+  },
+  "Improved Disarm": {
+    "name": "Improved Disarm",
+    "description": "You do not provoke an attack of opportunity when attempting to disarm an opponent.",
+    "prerequisites": "Int 13+, Expertise",
+    "benefits": "No attack of opportunity when disarming; +2 bonus on disarm checks.",
+    "special": null,
+    "page": 83
+  },
+  "Improved Trip": {
+    "name": "Improved Trip",
+    "description": "You do not provoke an attack of opportunity when attempting to trip an opponent.",
+    "prerequisites": "Int 13+, Expertise",
+    "benefits": "No attack of opportunity when tripping; +2 bonus on trip checks.",
+    "special": null,
+    "page": 83
+  },
+  "Whirlwind Attack": {
+    "name": "Whirlwind Attack",
+    "description": "You can make a full attack against all opponents within reach.",
+    "prerequisites": "Int 13+, Expertise, Dex 13+, Dodge, Mobility, Base attack bonus +4 or higher, Spring Attack",
+    "benefits": "You can make a melee attack against each opponent within reach as a full-round action.",
+    "special": null,
+    "page": 86
+  },
+  "Great Fortitude": {
+    "name": "Great Fortitude",
+    "description": "You have exceptional stamina and health.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on Fortitude saving throws.",
+    "special": null,
+    "page": 82
+  },
+  "Improved Critical": {
+    "name": "Improved Critical",
+    "description": "You can deal critical hits more easily with a chosen weapon.",
+    "prerequisites": "Proficient with weapon, Base attack bonus +8 or higher",
+    "benefits": "Double the threat range of a chosen weapon.",
+    "special": "Can be taken multiple times for different weapons.",
+    "page": 83
+  },
+  "Improved Initiative": {
+    "name": "Improved Initiative",
+    "description": "You are quick to act in combat.",
+    "prerequisites": null,
+    "benefits": "+4 bonus on initiative checks.",
+    "special": null,
+    "page": 83
+  },
+  "Improved Unarmed Strike": {
+    "name": "Improved Unarmed Strike",
+    "description": "You are skilled at fighting without weapons.",
+    "prerequisites": null,
+    "benefits": "No longer provoke attacks of opportunity when striking unarmed; damage equals 1d6 for medium creatures.",
+    "special": null,
+    "page": 83
+  },
+  "Deflect Arrows": {
+    "name": "Deflect Arrows",
+    "description": "You can deflect missiles with your hands.",
+    "prerequisites": "Dex 13+, Improved Unarmed Strike",
+    "benefits": "Once per round, you can deflect an arrow or similar ranged attack.",
+    "special": null,
+    "page": 81
+  },
+  "Stunning Fist": {
+    "name": "Stunning Fist",
+    "description": "You can stun opponents with a precise unarmed strike.",
+    "prerequisites": "Dex 13+, Improved Unarmed Strike, Wis 13+, Base attack bonus +8 or higher",
+    "benefits": "Use a stunning attack that may render the opponent stunned for 1 round.",
+    "special": null,
+    "page": 85
+  },
+  "Iron Will": {
+    "name": "Iron Will",
+    "description": "You have a strong mind and spirit.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on Will saving throws.",
+    "special": null,
+    "page": 83
+  },
+  "Leadership": {
+    "name": "Leadership",
+    "description": "You attract loyal followers and a cohort.",
+    "prerequisites": "Character Level 6th+",
+    "benefits": "Gain a cohort and followers, based on your Leadership score.",
+    "special": null,
+    "page": 83
+  },
+  "Lightning Reflexes": {
+    "name": "Lightning Reflexes",
+    "description": "You are quick to dodge attacks.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on Reflex saving throws.",
+    "special": null,
+    "page": 83
+  },
+  "Martial Weapon Proficiency": {
+    "name": "Martial Weapon Proficiency",
+    "description": "You are proficient with all martial weapons.",
+    "prerequisites": null,
+    "benefits": "Proficient with all martial weapons.",
+    "special": null,
+    "page": 83
+  },
+  "Mounted Combat": {
+    "name": "Mounted Combat",
+    "description": "You are skilled at fighting from horseback.",
+    "prerequisites": "Ride skill",
+    "benefits": "+4 bonus on Ride checks to avoid attacks of opportunity when mounted.",
+    "special": null,
+    "page": 84
+  },
+  "Mounted Archery": {
+    "name": "Mounted Archery",
+    "description": "You can shoot ranged weapons from horseback.",
+    "prerequisites": "Ride skill, Mounted Combat",
+    "benefits": "No penalty on ranged attacks while mounted.",
+    "special": null,
+    "page": 84
+  },
+  "Trample": {
+    "name": "Trample",
+    "description": "You can trample opponents while mounted.",
+    "prerequisites": "Ride skill, Mounted Combat",
+    "benefits": "Charge attack that can trample enemies.",
+    "special": null,
+    "page": 86
+  },
+  "Ride-By Attack": {
+    "name": "Ride-By Attack",
+    "description": "You can move before and after making a mounted melee attack.",
+    "prerequisites": "Ride skill, Mounted Combat",
+    "benefits": "Move, attack, and continue moving without provoking attacks of opportunity.",
+    "special": null,
+    "page": 84
+  },
+  "Spirited Charge": {
+    "name": "Spirited Charge",
+    "description": "You gain double damage on mounted charge attacks.",
+    "prerequisites": "Ride skill, Mounted Combat, Ride-By Attack",
+    "benefits": "Double damage on mounted charge attacks.",
+    "special": null,
+    "page": 85
+  },
+  "Point Blank Shot": {
+    "name": "Point Blank Shot",
+    "description": "You are skilled at shooting ranged weapons at close range.",
+    "prerequisites": null,
+    "benefits": "+1 bonus on attack and damage rolls with ranged weapons at ranges of 30 feet or less.",
+    "special": null,
+    "page": 84
+  },
+  "Far Shot": {
+    "name": "Far Shot",
+    "description": "You can shoot ranged weapons at longer distances without penalties.",
+    "prerequisites": "Point Blank Shot",
+    "benefits": "Reduce penalties for long-range attacks.",
+    "special": null,
+    "page": 82
+  },
+  "Precise Shot": {
+    "name": "Precise Shot",
+    "description": "You can shoot ranged weapons without penalty even when your target is engaged in melee.",
+    "prerequisites": "Point Blank Shot",
+    "benefits": "No -4 penalty on ranged attacks against targets engaged in melee.",
+    "special": null,
+    "page": 84
+  },
+  "Rapid Shot": {
+    "name": "Rapid Shot",
+    "description": "You can make an additional ranged attack each round.",
+    "prerequisites": "Point Blank Shot, Dex 13+",
+    "benefits": "You can make one extra ranged attack per round at your highest attack bonus.",
+    "special": null,
+    "page": 84
+  },
+  "Shot on the Run": {
+    "name": "Shot on the Run",
+    "description": "You can move and shoot during the same round.",
+    "prerequisites": "Point Blank Shot, Dex 13+, Dodge, Mobility",
+    "benefits": "Move up to your speed, make a single ranged attack, and continue moving without provoking attacks of opportunity.",
+    "special": null,
+    "page": 85
+  },
+  "Power Attack": {
+    "name": "Power Attack",
+    "description": "You can make powerful melee attacks at the cost of accuracy.",
+    "prerequisites": "Str 13+",
+    "benefits": "Subtract a chosen amount from your attack rolls and add it to your damage rolls.",
+    "special": null,
+    "page": 84
+  },
+  "Cleave": {
+    "name": "Cleave",
+    "description": "You can strike two adjacent foes after a successful attack.",
+    "prerequisites": "Str 13+, Power Attack",
+    "benefits": "Make an additional melee attack against an adjacent opponent if your first attack drops a foe.",
+    "special": null,
+    "page": 80
+  },
+  "Improved Bull Rush": {
+    "name": "Improved Bull Rush",
+    "description": "You do not provoke attacks of opportunity when performing a bull rush.",
+    "prerequisites": "Str 13+, Power Attack",
+    "benefits": "No attack of opportunity when bull rushing; +2 bonus on bull rush checks.",
+    "special": null,
+    "page": 82
+  },
+  "Sunder": {
+    "name": "Sunder",
+    "description": "You can attack and damage an opponent's weapon or shield.",
+    "prerequisites": "Str 13+, Power Attack",
+    "benefits": "+2 bonus on sundering attempts.",
+    "special": null,
+    "page": 85
+  },
+  "Great Cleave": {
+    "name": "Great Cleave",
+    "description": "You can continue to make cleave attacks as long as you keep dropping foes.",
+    "prerequisites": "Str 13+, Power Attack, Cleave, Base attack bonus +4 or higher",
+    "benefits": "After a successful cleave, you can make another cleave attack.",
+    "special": null,
+    "page": 82
+  },
+  "Quick Draw": {
+    "name": "Quick Draw",
+    "description": "You can draw weapons as a free action.",
+    "prerequisites": "Base attack bonus +1 or higher",
+    "benefits": "Draw weapons or items as a free action.",
+    "special": null,
+    "page": 84
+  },
+  "Run": {
+    "name": "Run",
+    "description": "You can run at four times your normal speed.",
+    "prerequisites": null,
+    "benefits": "Run at four times your normal speed instead of three.",
+    "special": null,
+    "page": 84
+  },
+  "Shield Proficiency": {
+    "name": "Shield Proficiency",
+    "description": "You are proficient with shields.",
+    "prerequisites": null,
+    "benefits": "Proficient with all shields.",
+    "special": null,
+    "page": 85
+  },
+  "Simple Weapon Proficiency": {
+    "name": "Simple Weapon Proficiency",
+    "description": "You are proficient with simple weapons.",
+    "prerequisites": null,
+    "benefits": "Proficient with all simple weapons.",
+    "special": null,
+    "page": 85
+  },
+  "Skill Focus": {
+    "name": "Skill Focus",
+    "description": "You gain a +3 bonus on a chosen skill.",
+    "prerequisites": null,
+    "benefits": "+3 bonus on one skill.",
+    "special": "Can be taken multiple times for different skills.",
+    "page": 85
+  },
+  "Spell Focus": {
+    "name": "Spell Focus",
+    "description": "You gain a +1 bonus to the save DC of spells from a chosen school of magic.",
+    "prerequisites": null,
+    "benefits": "+1 bonus to save DCs of spells from chosen school.",
+    "special": "Can be taken multiple times for different schools.",
+    "page": 85
+  },
+  "Spell Penetration": {
+    "name": "Spell Penetration",
+    "description": "You can overcome spell resistance more easily.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on caster level checks to overcome spell resistance.",
+    "special": null,
+    "page": 85
+  },
+  "Toughness": {
+    "name": "Toughness",
+    "description": "You have enhanced stamina and vitality.",
+    "prerequisites": null,
+    "benefits": "Gain 3 hit points when taken; additional hit points for every 3 levels beyond 3rd.",
+    "special": "Can be taken multiple times; effects stack.",
+    "page": 85
+  },
+  "Track": {
+    "name": "Track",
+    "description": "You can follow tracks and signs to find creatures.",
+    "prerequisites": null,
+    "benefits": "+2 bonus on Survival checks to follow tracks.",
+    "special": null,
+    "page": 85
+  },
+  "Two-Weapon Fighting": {
+    "name": "Two-Weapon Fighting",
+    "description": "You can fight with a weapon in each hand.",
+    "prerequisites": null,
+    "benefits": "-6 penalty on primary hand attacks and -10 on off-hand attacks (penalties reduced with Improved Two-Weapon Fighting).",
+    "special": null,
+    "page": 86
+  },
+  "Improved Two-Weapon Fighting": {
+    "name": "Improved Two-Weapon Fighting",
+    "description": "You gain an additional attack with your off-hand.",
+    "prerequisites": "Two-Weapon Fighting, Ambidexterity, Base attack bonus +9 or higher",
+    "benefits": "Gain a second off-hand attack.",
+    "special": null,
+    "page": 83
+  },
+  "Weapon Finesse": {
+    "name": "Weapon Finesse",
+    "description": "Use Dexterity instead of Strength on attack rolls with light weapons.",
+    "prerequisites": "Proficient with weapon, Base attack bonus +1 or higher",
+    "benefits": "Use Dexterity instead of Strength for attack rolls with certain weapons.",
+    "special": "Can be taken multiple times for different weapons.",
+    "page": 86
+  },
+  "Weapon Focus": {
+    "name": "Weapon Focus",
+    "description": "You gain a +1 bonus on attack rolls with a chosen weapon.",
+    "prerequisites": "Proficient with weapon, Base attack bonus +1 or higher",
+    "benefits": "+1 bonus on attack rolls with chosen weapon.",
+    "special": "Can be taken multiple times for different weapons.",
+    "page": 86
+  },
+  "Brew Potion": {
+    "name": "Brew Potion",
+    "description": "You can create magic potions.",
+    "prerequisites": "Spellcaster level 3rd+",
+    "benefits": "Create potions of spells you know.",
+    "special": null,
+    "page": 80
+  },
+  "Craft Magic Arms and Armor": {
+    "name": "Craft Magic Arms and Armor",
+    "description": "You can create magic weapons and armor.",
+    "prerequisites": "Spellcaster level 5th+",
+    "benefits": "Create magic arms and armor.",
+    "special": null,
+    "page": 81
+  },
+  "Craft Rod": {
+    "name": "Craft Rod",
+    "description": "You can create magic rods.",
+    "prerequisites": "Spellcaster level 9th+",
+    "benefits": "Create magic rods.",
+    "special": null,
+    "page": 81
+  },
+  "Craft Staff": {
+    "name": "Craft Staff",
+    "description": "You can create magic staffs.",
+    "prerequisites": "Spellcaster level 12th+",
+    "benefits": "Create magic staffs.",
+    "special": null,
+    "page": 81
+  },
+  "Craft Wand": {
+    "name": "Craft Wand",
+    "description": "You can create magic wands.",
+    "prerequisites": "Spellcaster level 5th+",
+    "benefits": "Create magic wands.",
+    "special": null,
+    "page": 81
+  },
+  "Craft Wondrous Item": {
+    "name": "Craft Wondrous Item",
+    "description": "You can create various magic items.",
+    "prerequisites": "Spellcaster level 3rd+",
+    "benefits": "Create wondrous magic items.",
+    "special": null,
+    "page": 81
+  },
+  "Forge Ring": {
+    "name": "Forge Ring",
+    "description": "You can create magic rings.",
+    "prerequisites": "Spellcaster level 12th+",
+    "benefits": "Create magic rings.",
+    "special": null,
+    "page": 82
+  },
+  "Scribe Scroll": {
+    "name": "Scribe Scroll",
+    "description": "You can create magic scrolls.",
+    "prerequisites": "Spellcaster level 1st+",
+    "benefits": "Create magic scrolls.",
+    "special": null,
+    "page": 84
+  },
+  "Empower Spell": {
+    "name": "Empower Spell",
+    "description": "Increase spell effects by 50%.",
+    "prerequisites": null,
+    "benefits": "Increase variables of spells by 50%.",
+    "special": null,
+    "page": 82
+  },
+  "Enlarge Spell": {
+    "name": "Enlarge Spell",
+    "description": "Increase the range of a spell by 50%.",
+    "prerequisites": null,
+    "benefits": "Increase range of spells by 50%.",
+    "special": null,
+    "page": 82
+  },
+  "Extend Spell": {
+    "name": "Extend Spell",
+    "description": "Double the duration of a spell.",
+    "prerequisites": null,
+    "benefits": "Double spell duration.",
+    "special": null,
+    "page": 82
+  },
+  "Heighten Spell": {
+    "name": "Heighten Spell",
+    "description": "Increase the effective level of a spell.",
+    "prerequisites": null,
+    "benefits": "Increase save DC as if spell was higher level.",
+    "special": null,
+    "page": 82
+  },
+  "Maximize Spell": {
+    "name": "Maximize Spell",
+    "description": "Maximize all variable numeric effects of a spell.",
+    "prerequisites": null,
+    "benefits": "Maximize spell variables (damage, healing, etc.).",
+    "special": null,
+    "page": 83
+  },
+  "Quicken Spell": {
+    "name": "Quicken Spell",
+    "description": "Cast a spell as a free action.",
+    "prerequisites": null,
+    "benefits": "Cast spells quickly (free action).",
+    "special": null,
+    "page": 84
+  },
+  "Silent Spell": {
+    "name": "Silent Spell",
+    "description": "Cast spells without verbal components.",
+    "prerequisites": null,
+    "benefits": "Remove verbal component from spells.",
+    "special": null,
+    "page": 85
+  },
+  "Still Spell": {
+    "name": "Still Spell",
+    "description": "Cast spells without somatic components.",
+    "prerequisites": null,
+    "benefits": "Remove somatic component from spells.",
+    "special": null,
+    "page": 85
+  },
+  "Extra Turning": {
+    "name": "Extra Turning",
+    "description": "You can turn or rebuke undead more times per day.",
+    "prerequisites": "Cleric or Paladin",
+    "benefits": "Gain extra turn/rebuke undead attempts per day.",
+    "special": "See pages 32 (Cleric) and 42 (Paladin)",
+    "page": 82
+  },
+  "Spell Mastery": {
+    "name": "Spell Mastery",
+    "description": "You can prepare and cast spells without a spellbook.",
+    "prerequisites": "Wizard",
+    "benefits": "Prepare and cast certain spells without a spellbook.",
+    "special": "See page 54",
+    "page": 85
+  },
+  "Weapon Specialization": {
+    "name": "Weapon Specialization",
+    "description": "You gain a +2 bonus on damage rolls with a chosen weapon.",
+    "prerequisites": "Fighter level 4th+",
+    "benefits": "+2 bonus on damage rolls with chosen weapon.",
+    "special": "Can be taken multiple times for different weapons. See pg 37",
+    "page": 86
+  }
+}

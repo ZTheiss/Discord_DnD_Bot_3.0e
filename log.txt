@@ -1,0 +1,31 @@
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.N/A
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A

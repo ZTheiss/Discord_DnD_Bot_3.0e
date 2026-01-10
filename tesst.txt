@@ -1,0 +1,45 @@
+Fighter
+Fighters are warriors who specialize in combat and weapon mastery. They have high hit points, good saving throws against physical effects, and gain bonus combat feats as they level up.
+Hit Die
+d10
+Skill Points
+2 + Int modifier
+Base Attack Bonus
+Full
+Saving Throws
+Fortitude: Good
+Reflex: Poor
+Will: Poor
+Class Skills
+Climb, Intimidate, Ride, Swim
+Proficiencies
+All simple weapons, All martial weapons, Light armor, Medium armor, Heavy armor, Shields
+Special Abilities
+Bonus Feats, Weapon Specialization, Bravery
+Alignment
+Any
+Role
+Frontline melee combatant
+Weapon List
+Club, Dagger, Handaxe, Javelin, Light mace, Morningstar, Quarterstaff, Shortspear, Sling, Battleaxe, Flail, Longsword, Morningstar, Rapier, Scimitar, Shortsword, Trident, Warhammer, Heavy crossbow, Light crossbow, Longbow, Shortbow
+Advancement Table (Lv 1–5)
+Lvl 1: BAB +1, Fort 2, Ref 0, Will 0, Specials: Bonus Feat
+Lvl 2: BAB +2, Fort 3, Ref 0, Will 0, Specials: None
+Lvl 3: BAB +3, Fort 3, Ref 1, Will 1, Specials: None
+Lvl 4: BAB +4, Fort 4, Ref 1, Will 1, Specials: Bonus Feat
+Lvl 5: BAB +5, Fort 4, Ref 1, Will 1, Specials: None
+Lvl 6: BAB +6, Fort 5, Ref 2, Will 2, Specials: None
+Lvl 7: BAB +7, Fort 5, Ref 2, Will 2, Specials: Bonus Feat
+Lvl 8: BAB +8, Fort 6, Ref 2, Will 2, Specials: None
+Lvl 9: BAB +9, Fort 6, Ref 3, Will 3, Specials: None
+Lvl 10: BAB +10, Fort 7, Ref 3, Will 3, Specials: Bonus Feat, Weapon Specialization
+Lvl 11: BAB +11, Fort 7, Ref 3, Will 3, Specials: None
+Lvl 12: BAB +12, Fort 8, Ref 4, Will 4, Specials: None
+Lvl 13: BAB +13, Fort 8, Ref 4, Will 4, Specials: Bonus Feat
+Lvl 14: BAB +14, Fort 9, Ref 4, Will 4, Specials: None
+Lvl 15: BAB +15, Fort 9, Ref 5, Will 5, Specials: None
+Lvl 16: BAB +16, Fort 10, Ref 5, Will 5, Specials: Bonus Feat
+Lvl 17: BAB +17, Fort 10, Ref 5, Will 5, Specials: None
+Lvl 18: BAB +18, Fort 11, Ref 6, Will 6, Specials: None
+Lvl 19: BAB +19, Fort 11, Ref 6, Will 6, Specials: Bonus Feat
+Lvl 20: BAB +20, Fort 12, Ref 6, Will 6, Specials: Weapon Specialization

@@ -1,0 +1,176 @@
+{
+  "Dwarf": {
+    "size": "Medium",
+    "type": "Humanoid (Dwarf)",
+    "base_speed": "20 ft. (but not reduced by armor or encumbrance)",
+    "ability_modifiers": {
+      "constitution": "+2",
+      "charisma": "-2"
+    },
+    "racial_traits": [
+      "Darkvision 60 ft.\n\n",
+      "Stonecunning: +2 racial bonus on checks to notice unusual stonework; automatic check when within 10 ft.\n\n",
+      "+2 racial bonus on Appraise checks that are related to stone or metal items.\n\n",
+      "+2 racial bonus on Craft checks that are related to stone or metal.\n\n",
+      "+1 racial bonus on attack rolls against orcs and goblinoids.\n\n",
+      "+4 dodge bonus to AC against giants.\n\n",
+      "Stability: +4 bonus on ability checks to resist being bull rushed or tripped when standing on the ground.\n\n",
+      "+2 racial bonus on saving throws against poison.\n\n",
+      "+2 racial bonus on saving throws against spells and spell-like effects.\n\n",
+      "Weapon Familiarity: Treat dwarven waraxe and dwarven urgrosh as martial weapons."
+    ],
+    "favored_class": "Fighter",
+    "languages": {
+      "automatic": ["Common", "Dwarven"],
+      "bonus": ["Giant", "Gnome", "Goblin", "Orc", "Terran", "Undercommon"]
+    },
+    "alignment_tendencies": "Usually Lawful Good"
+  },
+  "Dragonborn": {
+    "size": "Varies (usually Medium, based on original race)",
+    "type": "Humanoid (Dragonblood)",
+    "base_speed": "Same as base race",
+    "ability_modifiers": {
+      "constitution": "+2",
+      "dexterity": "-2"
+    },
+    "racial_traits": [
+      "Retains most racial traits of base humanoid race (loses some depending on transformation).\n\n",
+      "Dragonborn Transformation: Upon becoming Dragonborn, the character loses racial traits tied to physical form (such as elven weapon proficiencies or halfling size bonuses) but retains mental traits (skill bonuses, save bonuses).\n\n",
+      "Breath Weapon: 1/day usable breath weapon (15 ft. cone or 30 ft. line depending on chosen aspect), dealing 2d8 damage (Reflex half, DC 10 + 1/2 character level + Con modifier). Damage increases as level increases.\n\n",
+      "Draconic Aspect (choose one): \n- Heart: Gain breath weapon.\n- Mind: Darkvision 30 ft. (or extend existing Darkvision) and +2 bonus on saving throws against sleep/paralysis.\n- Wings: At 6 HD, may glide; at 12 HD, may fly at base speed (average maneuverability).\n\n",
+      "Immunity to magic sleep effects and paralysis (like true dragons).\n\n",
+      "Dragonblood Subtype: Counts as dragonblooded for effects and prerequisites."
+    ],
+    "favored_class": "Paladin",
+    "languages": {
+      "automatic": ["Draconic"],
+      "bonus": ["Common", "Any (except secret languages like Druidic)"]
+    },
+    "alignment_tendencies": "Strong tendency toward Lawful Good (due to devotion to Bahamut), but varies."
+  },
+  "Elf": {
+    "size": "Medium",
+    "type": "Humanoid (Elf)",
+    "base_speed": "30 ft.",
+    "ability_modifiers": {
+      "dexterity": "+2",
+      "constitution": "-2"
+    },
+    "racial_traits": [
+      "Low-Light Vision\n\n",
+      "+2 racial bonus on Listen, Search, and Spot checks.\n\n",
+      "An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check as though actively looking for it.\n\n",
+      "Weapon Proficiency: Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow, and shortbow (including composite).\n\n",
+      "Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects."
+    ],
+    "favored_class": "Wizard",
+    "languages": {
+      "automatic": ["Common", "Elven"],
+      "bonus": ["Draconic", "Gnoll", "Gnome", "Goblin", "Orc", "Sylvan"]
+    },
+    "alignment_tendencies": "Usually Chaotic Good"
+  },
+  "Gnome": {
+    "size": "Small",
+    "type": "Humanoid (Gnome)",
+    "base_speed": "20 ft.",
+    "ability_modifiers": {
+      "constitution": "+2",
+      "strength": "-2"
+    },
+    "racial_traits": [
+      "Low-Light Vision\n\n",
+      "+2 racial bonus on saving throws against illusions.\n\n",
+      "Add +1 to the Difficulty Class for all saving throws against illusion spells cast by gnomes.\n\n",
+      "+1 racial bonus on attack rolls against kobolds and goblinoids.\n\n",
+      "+4 dodge bonus to AC against giants.\n\n",
+      "+2 racial bonus on Listen checks.\n\n",
+      "+2 racial bonus on Craft (alchemy) checks.\n\n",
+      "Spell-Like Abilities: 1/day—Speak with Animals (burrowing mammal only), Dancing Lights, Ghost Sound, Prestidigitation.\n\n",
+      "Favored Animal Companion: A gnome with the ability to summon a familiar may choose a dire rat instead."
+    ],
+    "favored_class": "Bard",
+    "languages": {
+      "automatic": ["Common", "Gnome"],
+      "bonus": ["Draconic", "Dwarven", "Elven", "Giant", "Goblin", "Orc"]
+    },
+    "alignment_tendencies": "Usually Neutral Good"
+  },
+  "Half-Elf": {
+    "size": "Medium",
+    "type": "Humanoid (Half-Elf)",
+    "base_speed": "30 ft.",
+    "ability_modifiers": {},
+    "racial_traits": [
+      "Low-Light Vision\n\n",
+      "Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects.\n\n",
+      "+1 racial bonus on Listen, Search, and Spot checks.\n\n",
+      "+2 racial bonus on Diplomacy and Gather Information checks.\n\n",
+      "Elven Blood: Half-elves count as both elves and humans for any effect related to race."
+    ],
+    "favored_class": "Any",
+    "languages": {
+      "automatic": ["Common", "Elven"],
+      "bonus": ["Any (other than secret languages like Druidic)"]
+    },
+    "alignment_tendencies": "Often Chaotic Good"
+  },
+  "Half-Orc": {
+    "size": "Medium",
+    "type": "Humanoid (Orc)",
+    "base_speed": "30 ft.",
+    "ability_modifiers": {
+      "strength": "+2",
+      "intelligence": "-2",
+      "charisma": "-2"
+    },
+    "racial_traits": [
+      "Darkvision 60 ft.\n\n",
+      "Orc Blood: Half-orcs count as both humans and orcs for any effect related to race."
+    ],
+    "favored_class": "Barbarian",
+    "languages": {
+      "automatic": ["Common", "Orc"],
+      "bonus": ["Draconic", "Giant", "Gnoll", "Goblin", "Abyssal"]
+    },
+    "alignment_tendencies": "Usually Chaotic Neutral"
+  },
+  "Halfling": {
+    "size": "Small",
+    "type": "Humanoid (Halfling)",
+    "base_speed": "20 ft.",
+    "ability_modifiers": {
+      "dexterity": "+2",
+      "strength": "-2"
+    },
+    "racial_traits": [
+      "+1 racial bonus on all saving throws.\n\n",
+      "+2 morale bonus on saving throws against fear.\n\n",
+      "+1 racial bonus on attack rolls with thrown weapons and slings.\n\n",
+      "+2 racial bonus on Listen, Climb, and Jump checks."
+    ],
+    "favored_class": "Rogue",
+    "languages": {
+      "automatic": ["Common", "Halfling"],
+      "bonus": ["Dwarven", "Elven", "Gnome", "Goblin", "Orc"]
+    },
+    "alignment_tendencies": "Usually Lawful Good"
+  },
+  "Human": {
+    "size": "Medium",
+    "type": "Humanoid (Human)",
+    "base_speed": "30 ft.",
+    "ability_modifiers": {},
+    "racial_traits": [
+      "1 extra feat at 1st level.\n\n",
+      "4 extra skill points at 1st level and 1 extra skill point at each additional level."
+    ],
+    "favored_class": "Any",
+    "languages": {
+      "automatic": ["Common"],
+      "bonus": ["Any (other than secret languages like Druidic)"]
+    },
+    "alignment_tendencies": "Any"
+  }
+}
