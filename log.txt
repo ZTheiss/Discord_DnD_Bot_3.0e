@@ -42,3 +42,62 @@ Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn
 Loot search by loot_name: Wraiththorn Scroll 3SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 3%'
 Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
 Loot search by loot_name: Wraiththorn Scroll 1SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Incantamentum Accelerare Rod%'
+Loot search by loot_name: Incantamentum Accelerare RodSELECT * FROM party_loot WHERE name LIKE '%Incantamentum Accelerare Rod%'
+Loot search by loot_name: Virga  imperium mortisSELECT * FROM party_loot WHERE name LIKE '%Virga  imperium mortis%'
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Sent long Latest Campaign Adventure Entry message in chunks.N/A
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Virga Splendoris%'
+Loot search by loot_name: Virga SplendorisSELECT * FROM party_loot WHERE name LIKE '%Virga Splendoris%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Gallina Actus Wand%'
+Loot search by loot_name: Gallina Actus WandSELECT * FROM party_loot WHERE name LIKE '%Gallina Actus Wand%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Palla Charismatis%'
+Loot search by loot_name: Palla CharismatisSELECT * FROM party_loot WHERE name LIKE '%Palla Charismatis%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Incantamentum Accelerare Rod%'
+Loot search by loot_name: Incantamentum Accelerare RodSELECT * FROM party_loot WHERE name LIKE '%Incantamentum Accelerare Rod%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Periapt of Wound Closure%'
+Loot search by loot_name: Periapt of Wound ClosureSELECT * FROM party_loot WHERE name LIKE '%Periapt of Wound Closure%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Gladius Acutissimi%'
+Loot search by loot_name: Gladius AcutissimiSELECT * FROM party_loot WHERE name LIKE '%Gladius Acutissimi%'
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Loot search by loot_name: Wraiththorn Scroll 1SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Lookup command invoked for Spell: analyze dweomerN/A
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Exported loot data to CSV.SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Loot search by loot_name: Wraiththorn Scroll 1SELECT * FROM party_loot WHERE name LIKE '%Wraiththorn Scroll 1%'
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Exported loot data to CSV.SELECT * FROM party_loot
+Loot search by loot_owner: ""SELECT * FROM party_loot WHERE owner LIKE '%""%'
+Loot search by loot_owner: 1SELECT * FROM party_loot WHERE owner LIKE '%1%'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE owner LIKE '%N/A%'
+Loot search by loot_owner: N/ASELECT * FROM party_loot WHERE owner LIKE '%N/A%'
+Loot search by loot_owner: NOT N/ASELECT * FROM party_loot WHERE owner LIKE '%NOT N/A%'
+Lookup command invoked for Spell: blinkingN/A
+Lookup command invoked for Spell: blinkN/A
+Lookup command invoked for Spell: scareN/A
+Lookup command invoked for Spell: detect magicN/A
+Lookup command invoked for Spell: wishN/A
+Lookup command invoked for Spell: scorching rayN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Class: clericN/A
+Lookup command invoked for Spell: cure critical woundsN/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Sent long Latest Campaign Adventure Entry message in chunks.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A

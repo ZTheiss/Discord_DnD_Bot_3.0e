@@ -74,19 +74,20 @@ async def main():
     await bot.start(DISCORD_TOKEN)
 # --- Spell, Armor, Class, Feat, Race Lookup Command ---
 
-# @tree.command(name="lookup", description="Look up a spell, armor set, class, feat, or race feature")
-# @app_commands.describe(category="Category to search in", name="Name of the item")
-# @app_commands.choices(category=[
-#     app_commands.Choice(name="Class", value="class"),
-#     app_commands.Choice(name="Feat", value="feat"),
-#     app_commands.Choice(name="Race", value="race"),
-#     app_commands.Choice(name="Armor", value="armor"),
-#     app_commands.Choice(name="Spell", value="spell")  
-# ])
-# @app_commands.autocomplete(name=name_autocomplete)
-# async def lookup(interaction: discord.Interaction, category: app_commands.Choice[str], name: str):
-#     log_discord_bot_activity(f"Lookup command invoked for {category.name}: ", name, "N/A")
-#     await lookupResult(name, category, interaction)
+@tree.command(name="lookup", description="Look up a spell, armor set, class, feat, or race feature")
+@app_commands.describe(category="Category to search in", name="Name of the item")
+@app_commands.choices(category=[
+    app_commands.Choice(name="Class", value="class"),
+    app_commands.Choice(name="Feat", value="feat"),
+    app_commands.Choice(name="Race", value="race"),
+    app_commands.Choice(name="Armor", value="armor"),
+    app_commands.Choice(name="Spell", value="spell")  
+])
+@app_commands.autocomplete(name=name_autocomplete)
+async def lookup(interaction: discord.Interaction, category: app_commands.Choice[str], name: str):
+    log_discord_bot_activity(f"Lookup command invoked for {category.name}: ", name, "N/A")
+    await interaction.response.defer(ephemeral=True, thinking=True)
+    await lookupResult(name, category, interaction)
         
         
 asyncio.run(main())

@@ -23,7 +23,7 @@ class CampaignLoggerCommands(commands.Cog):
     ])
     async def latest(self, interaction: discord.Interaction, type: app_commands.Choice[str]):
         """Fetch the latest Campaign Logger entry"""
-        await interaction.response.defer(thinking=True)
+        await interaction.response.defer(ephemeral=True, thinking=True)
         if type.value == "latest":
             await self.last_session(interaction)
         elif type.value == "summary":
@@ -110,7 +110,7 @@ class CampaignLoggerCommands(commands.Cog):
 
     @app_commands.command(name="loot_divvy", description="Fetch & summarize the latest Campaign Logger adventure")
     async def loot_divvy(self, interaction: discord.Interaction):
-        await interaction.response.defer(thinking=True)
+        await interaction.response.defer(ephemeral=True, thinking=True)
         data = json.loads(await get_player_log())
         if data:
             raw_texts = []
@@ -146,7 +146,7 @@ class CampaignLoggerCommands(commands.Cog):
     @app_commands.command(name="log_to_campaign", description="Add a log entry to Campaign Logger via API")
     @app_commands.describe(entry_text="Text content of the log entry")
     async def log_to_campaign(self, interaction: discord.Interaction, entry_text: str):
-        await interaction.response.defer(thinking=True)
+        await interaction.response.defer(ephemeral=True, thinking=True)
         
         url = f"{API_BASE}/campaigns/{CAMPAIGN_ID}/entries"
 
