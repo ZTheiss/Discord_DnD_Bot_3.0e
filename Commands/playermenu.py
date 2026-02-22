@@ -11,7 +11,7 @@ from discord.ext import commands
 
 #     @app_commands.command(name="player_menu", description="Display the player menu")
 #     async def player_menu(self, interaction: discord.Interaction):
-#         embed = discord.Embed(title="🎲 Player Menu", description="Select an option from the menu below:", color=0x00AAFF)
+#         embed = discord.Embed(title="🎲 Player Menu", description="UNDER DEVELOPMENT: Select an option from the menu below:", color=0x00AAFF)
 #         embed.add_field(name="1. View Character Sheet", value="Display your character sheet details.", inline=False)
 #         embed.add_field(name="2. Inventory Management", value="View and manage your inventory items.", inline=False)
 #         embed.add_field(name="3. Quest Log", value="Check your current quests and objectives.", inline=False)

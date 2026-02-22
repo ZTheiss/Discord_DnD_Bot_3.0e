@@ -101,3 +101,92 @@ Fetched player log from Campaign Logger API.
 Fetched last session log entry.N/A
 Fetched player log from Campaign Logger API.
 Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: delayed blast fireballN/A
+Lookup command invoked for Spell: delayed blast fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: aidN/A
+Lookup command invoked for Class: BardN/A
+Fetched player log from Campaign Logger API.
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Lookup command invoked for Spell: fireballN/A
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Exported loot data to CSV.SELECT * FROM party_loot
+Exported loot data to CSV.SELECT * FROM party_loot WHERE owner = 'N/A'
+Exported loot data to CSV.SELECT * FROM party_loot WHERE owner LIKE '%Al%'
+Loot search by loot_owner: AlSELECT * FROM party_loot WHERE owner LIKE '%Al%'
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Lookup command invoked for Spell: delayed blast fireballN/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Fetched last session log entry.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Exported loot data to CSV.SELECT * FROM party_loot WHERE owner LIKE '%Al%'
+Loot search by loot_owner: AlSELECT * FROM party_loot WHERE owner LIKE '%Al%'
+Lookup command invoked for Spell: disrupt undeadN/A
+Lookup command invoked for Class: PaladinN/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Lookup command invoked for Spell: identifyN/A
+Exported loot data to CSV.SELECT * FROM party_loot
+Exported loot data to CSV.SELECT * FROM party_loot WHERE owner LIKE '%Zach%'
+Loot search by loot_owner: ZachSELECT * FROM party_loot WHERE owner LIKE '%Zach%'
+Fetched player log from Campaign Logger API.
+Sent long Last Session message in chunks.N/A
+Fetched player log from Campaign Logger API.
+Generated summary with Google GenAI.N/A
+Fetched latest log entry summary.N/A

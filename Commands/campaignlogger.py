@@ -89,18 +89,25 @@ class CampaignLoggerCommands(commands.Cog):
         data = json.loads(await get_player_log())
         if data:
             summary = []
-            for entry in data.get("data", []):
+            #print(data)
+            entries = data.get("data", [])
+            sorted_entries = sorted(entries, key=lambda x: x.get("attributes", {}).get("ordering", 999999))
+            summary = []
+            
+            for entry in sorted_entries:
                 attributes = entry.get("attributes", {})
                 raw_text = attributes.get("raw-text")
                 if raw_text:
                     summary.append(raw_text.strip())
                     break 
-            if len(summary) > 1900:
-                await send_long_message(interaction, summary, "Last Session")
+            
+            adventure_text = "\n\n".join(summary)
+            if len(adventure_text) > 1900:
+                await send_long_message(interaction, adventure_text, "Last Session")
             else:
                 msg = (
                     f"📜 **Last Session**\n"
-                    f"📝 **Summary:** {summary}"
+                    f"📝 **Summary:** {adventure_text}"
                 )
                 await interaction.followup.send(msg)
                 log_discord_bot_activity("Fetched last session log entry.", "", "N/A")

@@ -23,7 +23,7 @@ class LootCommands(commands.GroupCog, name="loot"):
     @app_commands.command(name="unowned", description="Display all unowned items in the loot database")
     async def loot_unowned(self, interaction: discord.Interaction):
         await interaction.response.defer(ephemeral=True, thinking=True)
-        await export_loot_csv(interaction, "*", where_clause="owner = ''")
+        await export_loot_csv(interaction, "*", where_clause="owner = 'N/A'")
 
     @app_commands.command(name="search", description="Display all items in the loot database")
     @app_commands.describe(category="Category to search by", name="Name of the selection")

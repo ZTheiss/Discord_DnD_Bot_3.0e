@@ -3,9 +3,10 @@ from discord import app_commands
 import aiosqlite
 import json
 import asyncio
+
 from utils.utils import *
 from utils.variables import *
-
+#pyinstaller --onefile --add-data "Commands;Commands" --add-data "data;data" --add-data "utils;utils" --add-data "dnd_bot.db;." --add-data "log.txt;." --add-data ".env;." discordbot.py
 
 # --- Database Setup ---
 async def setup_db():
@@ -23,36 +24,44 @@ async def setup_db():
                 crit TEXT,
                 damage_type TEXT,
                 description TEXT,
+                prerequisites TEXT,
                 discovery_location TEXT,
                 quantity INTEGER DEFAULT 1,
                 owner TEXT,
                 link TEXT
             )
         """)
-        with open("./data/loot.json", "r") as f:
-            items = json.load(f)
-        for item in items.values():
-            await db.execute(
-                "INSERT OR IGNORE INTO party_loot (name, category, type, hands, damage, range, magical, crit, damage_type, description, discovery_location, quantity, owner, link) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                (
-                    item.get("name"),
-                    item.get("category", ""),
-                    item.get("type", ""),
-                    item.get("hands", ""),
-                    item.get("damage", ""),
-                    item.get("range", ""),
-                    item.get("magical", False),
-                    item.get("crit", ""),
-                    item.get("damage_type", ""),
-                    item.get("description", ""),
-                    item.get("discovery_location", ""),
-                    item.get("quantity", 1),
-                    item.get("owner", ""),
-                    item.get("link", "")
-                )
+        try:
+            with open("./data/loot.json", "r", encoding="utf-8") as f:
+                items = json.load(f)
+        except Exception as e:
+            print("Error message:", e)
+            return 
+        rows = [
+            (
+                item.get("name"),
+                item.get("category", ""),
+                item.get("type", ""),
+                item.get("hands", ""),
+                item.get("damage", ""),
+                item.get("range", ""),
+                item.get("magical", False),
+                item.get("crit", ""),
+                item.get("damage_type", ""),
+                item.get("description", ""),
+                item.get("discovery_location", ""),
+                item.get("quantity", 1),
+                item.get("owner", ""),
+                item.get("link", "")
             )
+            for item in items.values()
+        ]
+        await db.executemany(
+            "INSERT OR IGNORE INTO party_loot (name, category, type, hands, damage, range, magical, crit, damage_type, description, discovery_location, quantity, owner, link) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", rows
+        )
 
         await db.commit()
+        print("Database setup complete.")
 
 @bot.event
 async def on_ready():
@@ -71,6 +80,7 @@ async def main():
     await bot.load_extension("Commands.scheduling")
     await bot.load_extension("Commands.playermenu")
     await bot.load_extension("Commands.lookup")
+    await bot.load_extension("Commands.menu")
     await bot.start(DISCORD_TOKEN)
 # --- Spell, Armor, Class, Feat, Race Lookup Command ---
 
@@ -88,6 +98,6 @@ async def lookup(interaction: discord.Interaction, category: app_commands.Choice
     log_discord_bot_activity(f"Lookup command invoked for {category.name}: ", name, "N/A")
     await interaction.response.defer(ephemeral=True, thinking=True)
     await lookupResult(name, category, interaction)
-        
+
         
 asyncio.run(main())

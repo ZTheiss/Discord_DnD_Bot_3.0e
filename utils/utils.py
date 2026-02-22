@@ -22,15 +22,15 @@ class NextPreviousViewWithMore(discord.ui.View):
         self.show_button = show_button
 
     
-    @discord.ui.button(label="⬅ Previous", style=discord.ButtonStyle.secondary)
-    async def previous(self, interaction: discord.Interaction, button: Button):
-        name = self.names[(self.index - 1) % len(self.names)]
-        await lookupResult(name=name, category=self.category, interaction=interaction)
+    # @discord.ui.button(label="⬅ Previous", style=discord.ButtonStyle.secondary)
+    # async def previous(self, interaction: discord.Interaction, button: Button):
+    #     name = self.names[(self.index - 1) % len(self.names)]
+    #     await lookupResult(name=name, category=self.category, interaction=interaction)
 
-    @discord.ui.button(label="Next ➡", style=discord.ButtonStyle.secondary)
-    async def next(self, interaction: discord.Interaction, button: Button):
-        name = self.names[(self.index + 1) % len(self.names)]
-        await lookupResult(name=name, category=self.category, interaction=interaction)
+    # @discord.ui.button(label="Next ➡", style=discord.ButtonStyle.secondary)
+    # async def next(self, interaction: discord.Interaction, button: Button):
+    #     name = self.names[(self.index + 1) % len(self.names)]
+    #     await lookupResult(name=name, category=self.category, interaction=interaction)
     
 
     @discord.ui.button(label="Show more", style=discord.ButtonStyle.primary)
@@ -74,15 +74,15 @@ class NextPreviousView(discord.ui.View):
         self.names = names # This is the list of all items in the category
         self.index = index
     
-    @discord.ui.button(label="⬅ Previous", style=discord.ButtonStyle.secondary)
-    async def previous(self, interaction: discord.Interaction, button: Button):
-        name = self.names[(self.index - 1) % len(self.names)]
-        await lookupResult(name=name, category=self.category, interaction=interaction)
+    # @discord.ui.button(label="⬅ Previous", style=discord.ButtonStyle.secondary)
+    # async def previous(self, interaction: discord.Interaction, button: Button):
+    #     name = self.names[(self.index - 1) % len(self.names)]
+    #     await lookupResult(name=name, category=self.category, interaction=interaction)
 
-    @discord.ui.button(label="Next ➡", style=discord.ButtonStyle.secondary)
-    async def next(self, interaction: discord.Interaction, button: Button):
-        name = self.names[(self.index + 1) % len(self.names)]
-        await lookupResult(name=name, category=self.category, interaction=interaction)
+    # @discord.ui.button(label="Next ➡", style=discord.ButtonStyle.secondary)
+    # async def next(self, interaction: discord.Interaction, button: Button):
+    #     name = self.names[(self.index + 1) % len(self.names)]
+    #     await lookupResult(name=name, category=self.category, interaction=interaction)
     
 def log_discord_bot_activity(activity: str, additional_info: str = "", sqlstring: str = ""):
     """Logs bot activity to log.txt"""
@@ -158,7 +158,7 @@ def lookupResult(name, category, interaction):
             embed.add_field(name="Advancement Table (Lv 1–20)", value=summary, inline=False)
         
         #RACE
-        if category_key == "race":
+        elif category_key == "race":
             # Ability modifiers formatting
             ability_mods = item.get("ability_modifiers", {})
             if ability_mods:
@@ -184,7 +184,7 @@ def lookupResult(name, category, interaction):
                 embed.add_field(name="Languages", value=lang_text, inline=False)
         
         #FEATS
-        if category_key == "feat":         
+        elif category_key == "feat":         
             #embed.add_field(name="Prerequisites", value=item.get("prerequisites", "None"), inline=False)
             embed.add_field(name="Benefits", value=item.get("benefits", "None"), inline=False)
             special_notes = item.get("special_notes", None)
@@ -195,7 +195,7 @@ def lookupResult(name, category, interaction):
             embed.add_field(name="Page", value=f"PHB p. {item.get("page", "N/A")}", inline=True)
             
         #ARMOR
-        if category_key == "armor":         
+        elif category_key == "armor":         
             #embed.add_field(name="Prerequisites", value=item.get("prerequisites", "None"), inline=False)
             embed.description = f"**Category:** {item.get('category', 'Unknown')}"
             embed.add_field(name="Cost", value=f"{item.get('cost_gp', 'N/A')} gp", inline=True)
@@ -219,12 +219,12 @@ def lookupResult(name, category, interaction):
             view = NextPreviousView(category, item, names, index, interaction)
 
         if view:
-            return interaction.response.send_message(embed=embed, view=view)
+            return interaction.followup.send(embed=embed, view=view)
         else:
-            return interaction.response.send_message(embed=embed)
+            return interaction.followup.send(embed=embed)
 
     else:
-        return interaction.response.send_message(f"❓ Could not find '{name}' in {category.name}.")
+        return interaction.followup.send(f"❓ Could not find '{name}' in {category.name}.")
 
 async def name_autocomplete(interaction: discord.Interaction, current: str):
     # Collect all possible names across all categories
