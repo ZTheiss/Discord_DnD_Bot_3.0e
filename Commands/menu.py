@@ -116,12 +116,70 @@ class ClassDropdown(discord.ui.Select):
         class_name = self.values[0]
 
         # Call your lookup logic directly
-        await lookupResult(
-            interaction,
-            category="class",
-            name=class_name
-        )
+        try:
+            pages, error = await lookup_result(
+                category="class",
+                name=class_name
+            )
+            print(f"Lookup result for {class_name}: {pages}, Error: {error}")
+            if error:
+                await interaction.response.send_message(f"Error: {error}", ephemeral=True)
+            else:
+                await interaction.response.edit_message(
+                    content=None,
+                    embed=pages[0],
+                    view=PageViewClass(pages)
+                )
+        except Exception as e:
+            print(f"Error during lookup_result: {e}")
   
+class PageViewClass(discord.ui.View):
+    def __init__(self, pages, page=0):
+        super().__init__(timeout=None)
+        self.pages = pages
+        self.page = page
+
+    async def _switch(self, interaction, index: int):
+        self.page = index
+        await interaction.response.edit_message(
+            embed=self.pages[self.page],
+            view=self
+        )
+
+    @discord.ui.button(label="Class Info", style=discord.ButtonStyle.primary)
+    async def class_info(self, interaction, button):
+        await self._switch(interaction, 0)
+
+    @discord.ui.button(label="Advancement", style=discord.ButtonStyle.secondary)
+    async def advancement(self, interaction, button):
+        await self._switch(interaction, 1)
+
+    @discord.ui.button(label="Spells / Day", style=discord.ButtonStyle.secondary)
+    async def spells(self, interaction, button):
+        await self._switch(interaction, 2)
+
+    @discord.ui.button(label="Abilities", style=discord.ButtonStyle.secondary)
+    async def abilities(self, interaction, button):
+        await self._switch(interaction, 3)
+
+    # --- BACK TO CLASS SELECT ---
+    @discord.ui.button(label="Back to Class Select", style=discord.ButtonStyle.danger, row=1)
+    async def back_to_class_select(self, interaction, button):
+        await interaction.response.edit_message(
+            content="Choose a class:",
+            embed=None,
+            view=ClassSelectMenu()
+        )
+
+    # --- HOME BUTTON ---
+    @discord.ui.button(label="Home", style=discord.ButtonStyle.success, row=1)
+    async def home(self, interaction, button):
+        await interaction.response.edit_message(
+            content="Main Menu",
+            embed=None,
+            view=MainMenu()
+        )
+
 
 
 ######## END OF LOOKUP MENU #######

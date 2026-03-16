@@ -99,6 +99,154 @@ def format_field(value):
     else:
         return str(value)
     
+
+async def lookup_result(category: str, name: str):
+    # Pull category data
+    data, names = lookup_data.get(category, ({}, []))
+    item = data.get(name)
+
+    if not item:
+        return None, f"❓ Could not find '{name}' in {category}."
+
+    if category == "class":
+        pages = await build_class_pages(item)
+        return pages, None
+
+    return None, "Category not implemented yet."
+
+
+async def build_class_pages(item: dict) -> list[discord.Embed]:
+    pages = []
+
+    # ============================
+    # PAGE 1 — OVERVIEW
+    # ============================
+    embed1 = discord.Embed(
+        title=item["name"],
+        description=item.get("description", "No description available."),
+        color=0x00ff00
+    )
+
+    embed1.add_field(name="Hit Die", value=item.get("hit_die", "N/A"), inline=True)
+    embed1.add_field(name="Skill Points", value=item.get("skill_points", "N/A"), inline=True)
+    embed1.add_field(name="Alignment", value=item.get("alignment", "N/A"), inline=True)
+
+    embed1.add_field(
+        name="Class Skills",
+        value=", ".join(item.get("class_skills", [])) or "None",
+        inline=False
+    )
+
+    embed1.add_field(
+        name="Proficiencies",
+        value="\n".join(f"- {p}" for p in item.get("proficiencies", [])),
+        inline=False
+    )
+
+    pages.append(embed1)
+
+    # --- PAGE 2: Advancement Table ---
+    adv = item.get("advancement_table", [])  
+    first_half = adv[:10]
+    second_half = adv[10:]
+
+    block1 = "**Lvl | BAB | Fort | Ref | Will | Special**\n"
+    for lvl in first_half:
+        specials = ", ".join(lvl.get("special_abilities", [])) or "None"
+        block1 += (
+            f"{lvl['level']:>3} | "
+            f"{lvl['base_attack_bonus']:>4} | "
+            f"{lvl['fort_save']:>4} | "
+            f"{lvl['ref_save']:>3} | "
+            f"{lvl['will_save']:>4} | "
+            f"{specials}\n"
+        )
+        
+    block2 = "**Lvl | BAB | Fort | Ref | Will | Special**\n"
+    for lvl in second_half:
+        specials = ", ".join(lvl.get("special_abilities", [])) or "None"
+        block2 += (
+            f"{lvl['level']:>3} | "
+            f"{lvl['base_attack_bonus']:>4} | "
+            f"{lvl['fort_save']:>4} | "
+            f"{lvl['ref_save']:>3} | "
+            f"{lvl['will_save']:>4} | "
+            f"{specials}\n"
+        )
+
+    embed2 = discord.Embed(
+        title=f"{item['name']} Advancement Table",
+        description="Levels 1–20",
+        color=0x00ff00
+    )
+    
+    embed2.add_field(
+        name="Levels 1–10",
+        value=block1[:1020] + "..." if len(block1) > 1024 else block1,
+        inline=False
+    )
+
+    embed2.add_field(
+        name="Levels 11–20",
+        value=block2[:1020] + "..." if len(block2) > 1024 else block2,
+        inline=False
+    )
+        
+    pages.append(embed2)
+
+    # --- PAGE 3: Spells Per Day ---
+    spells = item.get("spells_per_day", {})
+    if spells:
+        embed3 = discord.Embed(
+            title=f"{item['name']} Spells Per Day",
+            description="Spell slots gained at each level.",
+            color=0x00ff00
+        )
+
+        spell_table = "**Lvl | 1st | 2nd | 3rd | 4th**\n"
+        for lvl, slots in spells.items():
+            spell_table += (
+                f"{int(lvl):>3} | "
+                f"{slots[0]:>3} | "
+                f"{slots[1]:>3} | "
+                f"{slots[2]:>3} | "
+                f"{slots[3]:>3}\n"
+            )
+
+        embed3.add_field(name="Spell Slots", value=spell_table, inline=False)
+        pages.append(embed3)
+    else:
+        embed3 = discord.Embed(
+            title=f"{item['name']} Spells Per Day",
+            description="This class does not have spellcasting abilities.",
+            color=0x00ff00
+        )
+        pages.append(embed3)
+
+    # --- PAGE 4: Class Abilities ---
+    abilities = item.get("special_abilities", {})
+    if abilities:
+        embed4 = discord.Embed(
+            title=f"{item['name']} Class Abilities",
+            color=0x00ff00
+        )
+
+        ability_text = "\n\n".join(abilities) or "None"
+
+        embed4.description = ability_text[:4000]  # Discord limit
+        pages.append(embed4)
+    else:
+        embed4 = discord.Embed(
+            title=f"{item['name']} Class Abilities",
+            description="No special abilities listed for this class.",
+            color=0x00ff00
+        )
+        pages.append(embed4)
+
+    return pages
+
+    
+
 def lookupResult(name, category, interaction):
     category_key = category.value
     data, names = lookup_data.get(category_key, ({}, [])) # Names is the list of all keys (all spells)
@@ -212,6 +360,7 @@ def lookupResult(name, category, interaction):
 
             embed.add_field(name="Page", value=f"PHB p. {item.get("page", "N/A")}", inline=True)
             
+        
         #Show the "Show More" button if the description was truncated or if the item has a lot of details
         if show_button:
             view = NextPreviousViewWithMore(category, item, names, index, interaction, show_button)

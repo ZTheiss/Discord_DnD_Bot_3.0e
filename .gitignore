@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all image and pdf files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.pdf
+
 # Distribution / packaging
 .Python
 build/
