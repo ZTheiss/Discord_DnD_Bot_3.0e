@@ -63,7 +63,7 @@
         "prerequisites": "N/A",
         "discovery_location": "Ancient Ruins",
         "quantity": 1,
-        "owner": "N/A",
+        "owner": "",
         "link": "https://app.campaign-logger.com/campaign-entries/0c54bab55dfc493997a0eb81c47fdc08"
     },
     "Boots of Spider Climb": {
@@ -589,7 +589,7 @@
         "prerequisites": "N/A",
         "discovery_location": "Ancient Ruins",
         "quantity": 1,
-        "owner": "N/A",
+        "owner": "",
         "link": "https://app.campaign-logger.com/campaign-entries/91564c73c7cb40ff82a88e0bdbf01a92"
     },
     "Potion of Hiding": {
@@ -606,7 +606,7 @@
         "prerequisites": "N/A",
         "discovery_location": "Ancient Ruins",
         "quantity": 1,
-        "owner": "N/A",
+        "owner": "",
         "link": "https://app.campaign-logger.com/campaign-entries/9efc7b3b0647458595ed1786d9b9b16a"
     },
     "Potion of Invisibility": {
@@ -640,7 +640,7 @@
         "prerequisites": "N/A",
         "discovery_location": "Ancient Ruins",
         "quantity": 1,
-        "owner": "N/A",
+        "owner": "",
         "link": "https://app.campaign-logger.com/campaign-entries/e4364d6bc59e4f3f87ac3c86676e32c5"
     },
     "Potion of Vital Essence": {
@@ -725,7 +725,7 @@
         "prerequisites": "Attunement: Paladin, Cleric, or any Good‑aligned divine warrior. ",
         "discovery_location": "Grove of Whispers",
         "quantity": 1,
-        "owner": "Al",
+        "owner": "",
         "link": "https://app.campaign-logger.com/campaign-entries/44ea410e460d4eaba76f07d4fb58893b"
     },
     "Solar Bastion of the Dawn - Shield": {
