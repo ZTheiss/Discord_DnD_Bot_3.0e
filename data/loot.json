@@ -42,7 +42,7 @@
         "magical": true,
         "crit": "19-20/x2",
         "damage_type": "Slashing",
-        "description": "Appearance: A blade of polished aurichalcum, etched with hieroglyphic sun‑prayers. The fuller glows like molten gold when undead are near. The pommel is a miniature ankh whose loop burns with inner daylight. LEVEL‑BASED PROGRESSION: Level 5 — Dawn’s First Breath: The blade awakens with a soft, steady glow. Weapon Stats: +1 holy longsword, Deals +1d6 radiant to undead Passive:  Sun‑Sense: Detect undead within 30 ft. Radiant Pulse (1/Hour): Heal an ally 1d6 or deal 1d6 radiant to undead on touch. Active (1/day): Solar Cut: +1d6 radiant; undead must save or be dazzled 1 round. Level 8 — Light of the Ankh",
+        "description": "Appearance: A blade of polished aurichalcum, etched with hieroglyphic sun-prayers. The fuller glows like molten gold when undead are near. The pommel is a miniature ankh whose loop burns with inner daylight. LEVEL‑BASED PROGRESSION: Level 5 — Dawn’s First Breath: The blade awakens with a soft, steady glow. Weapon Stats: +1 holy longsword, Deals +1d6 radiant to undead Passive:  Sun‑Sense: Detect undead within 30 ft. Radiant Pulse (1/Hour): Heal an ally 1d6 or deal 1d6 radiant to undead on touch. Active (1/day): Solar Cut: +1d6 radiant; undead must save or be dazzled 1 round. Level 8 - Light of the Ankh",
         "prerequisites": "Attunement: Cleric, Paladin, Dawn‑Seeker, or any Good‑aligned divine champion",
         "discovery_location": "Grove of Whispers",
         "quantity": 1,
