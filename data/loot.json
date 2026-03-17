@@ -931,22 +931,5 @@
         "quantity": 1,
         "owner": "Al",
         "link": "https://app.campaign-logger.com/campaign-entries/1e03dc0a1631444094ac75b120c2a0bf"
-    },
-    "Wraiththorn Scroll 3": {
-        "name": "Wraiththorn Scroll 3",
-        "category": "Magic Item",
-        "type": "Scroll",
-        "hands": "Held",
-        "damage": "N/A",
-        "range": "N/A",
-        "magical": true,
-        "crit": "N/A",
-        "damage_type": "N/A",
-        "description": "Mage Armor (1st Level), True Strike (1st Level), Burning Hands (1st Level), Feather Fall (1st Level)",
-        "prerequisites": "N/A",
-        "discovery_location": "Ancient Ruins",
-        "quantity": 1,
-        "owner": "Al",
-        "link": "https://app.campaign-logger.com/campaign-entries/1e03dc0a1631444094ac75b120c2a0bf"
     }
 }
