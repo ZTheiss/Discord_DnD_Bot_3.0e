@@ -102,15 +102,27 @@ class LootCommands(commands.GroupCog, name="loot"):
                 await interaction.response.send_message(f"❌ No loot found named **{loot_name}**.")
 
     @app_commands.command(name="add", description="Add loot to the database")
-    @app_commands.describe(loot_name="Name of the item")
+    @app_commands.describe(
+        loot_name="Name of the loot item",
+        icategory="Category of item (e.g. sword, shield, etc.)",
+        itype="Type of item (weapon, armor, potion, etc.)",
+        quantity="How many?",
+        owner="Who owns it?",
+        link="Link to more info (optional)"
+    )
     @app_commands.autocomplete(loot_name=json_to_autocomplete(loot_name))
-    async def loot_add(self, interaction: discord.Interaction, loot_name: str):
+    async def loot_add(self, interaction: discord.Interaction, loot_name: str, icategory: str, itype: str, hands: Optional[str] = "N/A", damage: Optional[str] = "N/A", range: Optional[str] = "N/A", magical: bool = True, crit: Optional[str] = "N/A", damage_type: Optional[str] = "N/A", description: Optional[str] = "N/A", prerequisites: Optional[str] = "N/A", discovery_location: Optional[str] = "N/A", quantity: int = 1, owner: str = "", link: Optional[str] = "N/A"):
         async with aiosqlite.connect("dnd_bot.db") as db:
             cursor = await db.execute("""
-                INSERT INTO party_loot (name)
-                VALUES (?)
-            """, (loot_name))
+                INSERT INTO loot_items (
+                    name, category, type, hands, damage, range, magical, crit,
+                    damage_type, description, prerequisites, discovery_location,
+                    quantity, owner, link
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (loot_name, icategory, itype, hands, damage, range, magical, crit, damage_type, description, prerequisites, discovery_location, quantity, owner, link))
             await db.commit()
+
+
             log_discord_bot_activity(f"Adding loot item: ", loot_name, "INSERT INTO party_loot (name) VALUES (loot_name)")
             if cursor.rowcount > 0:
                 await interaction.response.send_message(f"✅ Loot **{loot_name}** added.")

@@ -150,37 +150,37 @@ class CampaignLoggerCommands(commands.Cog):
             log_discord_bot_activity("Fetched loot divvy summary from latest adventure.", "", "")
     
 
-    @app_commands.command(name="log_to_campaign", description="Add a log entry to Campaign Logger via API")
-    @app_commands.describe(entry_text="Text content of the log entry")
-    async def log_to_campaign(self, interaction: discord.Interaction, entry_text: str):
-        await interaction.response.defer(ephemeral=True, thinking=True)
+    # @app_commands.command(name="log_to_campaign", description="Add a log entry to Campaign Logger via API")
+    # @app_commands.describe(entry_text="Text content of the log entry")
+    # async def log_to_campaign(self, interaction: discord.Interaction, entry_text: str):
+    #     await interaction.response.defer(ephemeral=True, thinking=True)
         
-        url = f"{API_BASE}/campaigns/{CAMPAIGN_ID}/entries"
+    #     url = f"{API_BASE}/campaigns/{CAMPAIGN_ID}/entries"
 
-        headers = {
-            "Authorization": f"Bearer {API_TOKEN}",
-            "Content-Type": "application/json"
-        }
+    #     headers = {
+    #         "Authorization": f"Bearer {API_TOKEN}",
+    #         "Content-Type": "application/json"
+    #     }
 
-        payload = {
-            "content": entry_text,
-            # add other fields as required by the API, e.g., title, date
-        }
+    #     payload = {
+    #         "content": entry_text,
+    #         # add other fields as required by the API, e.g., title, date
+    #     }
 
-        async with aiohttp.ClientSession() as session:
-            async with session.post(url, json=payload, headers=headers) as response:
-                if response.status == 201:
-                    data = await response.json()
-                    entry_url = data.get("url", None)
-                    msg = "✅ Log entry added!"
-                    if entry_url:
-                        msg += f" [View entry]({entry_url})"
-                    await interaction.followup.send(msg)
-                    log_discord_bot_activity("Added log entry to Campaign Logger via API.", entry_text, "N/A")
-                else:
-                    error_text = await response.text()
-                    await interaction.followup.send(f"❌ Failed to add log entry. Status: {response.status}\n{error_text}")
-                    log_discord_bot_activity("Failed to add log entry to Campaign Logger via API.", entry_text, f"Status: {response.status}\n{error_text}")
+    #     async with aiohttp.ClientSession() as session:
+    #         async with session.post(url, json=payload, headers=headers) as response:
+    #             if response.status == 201:
+    #                 data = await response.json()
+    #                 entry_url = data.get("url", None)
+    #                 msg = "✅ Log entry added!"
+    #                 if entry_url:
+    #                     msg += f" [View entry]({entry_url})"
+    #                 await interaction.followup.send(msg)
+    #                 log_discord_bot_activity("Added log entry to Campaign Logger via API.", entry_text, "N/A")
+    #             else:
+    #                 error_text = await response.text()
+    #                 await interaction.followup.send(f"❌ Failed to add log entry. Status: {response.status}\n{error_text}")
+    #                 log_discord_bot_activity("Failed to add log entry to Campaign Logger via API.", entry_text, f"Status: {response.status}\n{error_text}")
 
         
 async def setup(bot):

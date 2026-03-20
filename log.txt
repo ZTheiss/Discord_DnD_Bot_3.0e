@@ -190,3 +190,21 @@ Sent long Last Session message in chunks.N/A
 Fetched player log from Campaign Logger API.
 Generated summary with Google GenAI.N/A
 Fetched latest log entry summary.N/A
+Assigning loot item: ZachDagger of Whispered VenomUPDATE party_loot SET owner = name WHERE name = loot_name
+Exported loot data to CSV.SELECT * FROM party_loot
+Exported loot data to CSV.SELECT * FROM party_loot
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Lookup command invoked for Class: BardN/A
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Sent long Loot Divvy Summary message in chunks.N/A
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Sent long Loot Divvy Summary message in chunks.N/A
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.

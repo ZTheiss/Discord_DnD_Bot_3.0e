@@ -47,6 +47,7 @@ class LookupCommands(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
+
     @app_commands.command(name="spells", description="Look up a spell")
     @app_commands.describe(name="Name of the spell")
     @app_commands.autocomplete(name=name_autocomplete)
@@ -89,7 +90,17 @@ class LookupCommands(commands.Cog):
 
 
     @app_commands.command(name="race", description="Look up a race")
+    @app_commands.describe(name="Name of the race")
+    @app_commands.autocomplete(name=name_autocomplete)
     async def race(self, interaction, name: str):
+        race_data = lookup_data["race"].get(name)
+        if not race_data:
+            await interaction.response.send_message(
+                f"❌ Race **{name}** not found.",
+                ephemeral=True
+            )
+            return
+
         tracker = LookupTracker(
             title=f"🧬 {race['name']}",
             fields={
@@ -107,7 +118,16 @@ class LookupCommands(commands.Cog):
         )
 
     @app_commands.command(name="class", description="Look up a class")
+    @app_commands.describe(name="Name of the class")
+    @app_commands.autocomplete(name=name_autocomplete)
     async def class_lookup(self, interaction, name: str):
+        class_data = lookup_data["class"].get(name)
+        if not class_data:
+            await interaction.response.send_message(
+                f"❌ Class **{name}** not found.",
+                ephemeral=True
+            )
+            return
         tracker = LookupTracker(
             title=f"⚔️ {class_data['name']}",
             fields={
