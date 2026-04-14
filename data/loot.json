@@ -270,6 +270,23 @@
         "owner": "Zach",
         "link": "https://app.campaign-logger.com/campaign-entries/c64ed3ab91dd4877baefc7678cef9ca2"
     },
+    "Gauntlets of the Solar Grasp": {
+        "name": "Gauntlets of the Solar Grasp",
+        "category": "Magic Item",
+        "type": "Armor",
+        "hands": "Held",
+        "damage": "N/A",
+        "range": "N/A",
+        "magical": true,
+        "crit": "N/A",
+        "damage_type": "N/A",
+        "description": "Polished aurichalcum gauntlets with etched sun‑rays along the fingers and a central ankh embossed across the back of the hands. When clenched, the ankh glows with a soft golden light. When striking undead, the glow flares violently. **MECHANICAL BENEFITS ** Passive Effects: +2 sacred bonus to Strength checks and melee damage vs undead, Unarmed strikes count as holy and deal +1d6 radiant to undead, Touch spells gain +10 ft range when cast through the gauntlets, Detect undead within 30 ft as a warm pulse through the palms. Solar Grasp (2/day): As a standard action, the wearer may reach out and unleash radiant energy through their palm: Target undead within 30 ft takes 3d6 radiant damage (Will half), If the undead fails its save, it is dazzled for 1 round, If the target is incorporeal, it takes full damage despite resistances. Sun‑Strike Channeling (1/day): When casting a touch‑based spell (e.g., Cure Wounds, Dispel Evil), the wearer may channel it through a melee weapon strike: Make a melee attack, On hit, deal weapon damage + spell effect, Undead struck take +2d6 radiant and suffer –2 to saves vs the spell.",
+        "prerequisites": "N/A",
+        "discovery_location": "Zegtreg Forest",
+        "quantity": 1,
+        "owner": "",
+        "link": "https://app.campaign-logger.com/logs/5994980ea3b0479b861bc0e314d22ca5/tags/item/gauntlets%20of%20the%20solar%20grasp"
+    },
     "Gladius Acutissimi": {
         "name": "Gladius Acutissimi",
         "category": "Weapon",
@@ -537,8 +554,8 @@
         "description": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.",
         "prerequisites": "N/A",
         "discovery_location": "Ancient Ruins",
-        "quantity": 1,
-        "owner": "Kristen",
+        "quantity": 2,
+        "owner": "Kristen, N/A",
         "link": "https://app.campaign-logger.com/campaign-entries/f868e87d4e7e4472ad56b58b0cf0dae7"
     },
     "Potion of Cure Serious Wounds": {
@@ -694,6 +711,23 @@
         "owner": "Al, Zach",
         "link": "https://app.campaign-logger.com/campaign-entries/5020758ca42c47338b4647967aa9a235"
     },
+    "Sephulchral Gate Scroll 1": {
+        "name": "Sephulchral Gate Scroll 1",
+        "category": "Magic Item",
+        "type": "Scroll",
+        "hands": "Held",
+        "damage": "N/A",
+        "range": "N/A",
+        "magical": true,
+        "crit": "N/A",
+        "damage_type": "N/A",
+        "description": "Bull strength, Cure Moderate Wounds X2, Hold Person, Resist Energy, Shield Another",
+        "prerequisites": "N/A",
+        "discovery_location": "Ancient Ruins",
+        "quantity": 1,
+        "owner": "",
+        "link": "https://app.campaign-logger.com/campaign-entries/19858d56048c452c84a25131fa7af6ca"
+    },
     "Shield Of Mercy": {
         "name": "Shield Of Mercy",
         "category": "Armor",
@@ -738,8 +772,8 @@
         "magical": true,
         "crit": "N/A",
         "damage_type": "N/A",
-        "description": "",
-        "prerequisites": "N/A",
+        "description": "A broad, gleaming shield shaped like a rising sun. The central boss is a radiant ankh, and the rim is etched with hieroglyphic prayers. When raised in defense, the shield emits a soft golden glow that intensifies near undead. Passive Effects: +2 holy shieldm +1 sacred AC, +2 sacred bonus on saves vs undead effects. Radiant Reprisal (1/day): As an immediate action when struck by an undead: Reduce damage by 5, Attacker takes 2d6 radiant, Allies within 10 ft gain +1 AC for 1 round. Sun‑Ward Aura (10 ft radius) 1/Day: Allies gain +1 sacred bonus to saves vs undead, Allies gain +1 AC, Allies gain 3d6 temporary Hite Points, All last for 5 rounds.",
+        "prerequisites": "Paladin, Cleric, or any Good‑aligned divine warrior",
         "discovery_location": "Grove of Whispers",
         "quantity": 1,
         "owner": "",
@@ -931,5 +965,5 @@
         "quantity": 1,
         "owner": "Al",
         "link": "https://app.campaign-logger.com/campaign-entries/1e03dc0a1631444094ac75b120c2a0bf"
-    }
+    } 
 }

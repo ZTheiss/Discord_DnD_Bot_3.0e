@@ -1,0 +1,1253 @@
+Acus
+----
+Category: Weapon
+Type: Short Sword
+Hands: One-Handed
+Damage: +1/+1 1d6
+Range: Melee
+Magical: False
+Crit: 19-20/x2
+Damage Type: Piercing
+
+Description:
+N/A
+
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Stefan
+Link: https://app.campaign-logger.com/campaign-entries/1a94dd1afa5b4effa0f4a8aba8d85418
+
+========================================
+
+Ankh Conversionis
+-----------------
+Category: Magic Item
+Type: Consumable
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: False
+Crit: N/A
+Damage Type: N/A
+
+Description:
++2 on Turning Roll, +1 on 2d6 Roll. You turn or rebuke creatures as if you were one level higher than you are in the class that grants you the ability.
+
+Prerequisites: Ability to turn or rebuke creatures.
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Keith
+Link: https://app.campaign-logger.com/campaign-entries/f349039ed8c14b6b906942ea61d6a0fd
+
+========================================
+
+Ankh-Reaver of the Dawn
+-----------------------
+Category: Magic Item
+Type: Longsword
+Hands: Held
+Damage: 1d8 + 1 +d6 radiant vs evil
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Slashing
+
+Description:
+Appearance: A blade of polished aurichalcum, etched with hieroglyphic sun-prayers. The fuller glows like molten gold when undead are near. The pommel is a miniature ankh whose loop burns with inner daylight. LEVEL‑BASED PROGRESSION: Level 5 — Dawn’s First Breath: The blade awakens with a soft, steady glow. Weapon Stats: +1 holy longsword, Deals +1d6 radiant to undead Passive:  Sun‑Sense: Detect undead within 30 ft. Radiant Pulse (1/Hour): Heal an ally 1d6 or deal 1d6 radiant to undead on touch. Active (1/day): Solar Cut: +1d6 radiant; undead must save or be dazzled 1 round. Level 8 - Light of the Ankh
+
+Prerequisites: Attunement: Cleric, Paladin, Dawn‑Seeker, or any Good‑aligned divine champion
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/3be7a3ee909242b984abae6b2aa908fa
+
+========================================
+
+Blight Stone
+------------
+Category: Magic Item
+Type: N/A
+Hands: Held
+Damage: N/A
+Range: Thrown
+Magical: False
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This stone is tacky with a putrid green residue. A blight stone creates an instantaneous burst of vapor that damages plants and plant-based creatures. The stone must be thrown (range increment 10 feet) or hurled from a sling (using that weapon's normal range increment) as a ranged touch attack. When the stone strikes its target or a hard surface, it deals no damage but explodes in a 10-foot-radius burst of noxious vapors. This cloud of gas deals 5d6 points of damage to all plants and plant creatures in the area (Fort DC 14 half).
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/0c54bab55dfc493997a0eb81c47fdc08
+
+========================================
+
+Boots of Spider Climb
+---------------------
+Category: Magic Item
+Type: Armor
+Hands: Feet
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+When worn, these soft, lightweight boots let the wearer move along vertical surfaces or even crawl upside‑down across ceilings, all while keeping their hands free. They function like a continuous spider climb effect with a fixed movement rate. Movement: 15 ft. while climbing per round. Limitations: Do not function on extremely slippery surfaces: Icy, Oiled, Greased
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/de223880cf074d85ae98ca57ed4d264b
+
+========================================
+
+Bracers of Archery (Brachalia Sagittarii)
+-----------------------------------------
+Category: Armor
+Type: Bracers
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+These bracers empower the wearer to use any bow (not including crossbows) as if the wearer were proficient in its use. If the wearer already has proficiency with any type of bow, he or she gains a +2 competence bonus to attack rolls and a +1 competence bonus to damage dealt whenever using that type of bow. The bonus to damage only applies if the target is within 30 feet. Both bracers must be worn for the magic to be effective.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: TJ
+Link: https://app.campaign-logger.com/campaign-entries/72739bda35334ca58267a4223aa9efab
+
+========================================
+
+Card of Travel Blaze
+--------------------
+Category: Quest Item
+Type: Card
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+N/A
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: N/A
+Link: https://app.campaign-logger.com/campaign-entries/d10e39c6572b4f659ee730fbf6b927fe
+
+========================================
+
+Card of Travel Jasper Dawnstorm
+-------------------------------
+Category: Quest Item
+Type: Card
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+N/A
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: N/A
+Link: https://app.campaign-logger.com/campaign-entries/1cb2271e683e42d6925fb781e0ff0497
+
+========================================
+
+Card of Travel Mira Dawnbringer
+-------------------------------
+Category: Quest Item
+Type: Card
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+N/A
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: N/A
+Link: https://app.campaign-logger.com/campaign-entries/ea652b48d49b4923a7677e0827a1f60b
+
+========================================
+
+Card of Travel Skullseer
+------------------------
+Category: Quest Item
+Type: Card
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+N/A
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: N/A
+Link: https://app.campaign-logger.com/campaign-entries/d8a1ef85223d4f8a84ec791dc9f4523f
+
+========================================
+
+Concelus Dawn Seeker
+--------------------
+Category: Magic Item
+Type: Armor
+Hands: Chest
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Forged in the Sevenfold Sunrise ritual, this armor awakens as its wearer proves worthy. Its hieroglyphs glow brighter with each victory over undeath. Base Armor: +1 Radiant Full Plate. Aura: Strong abjuration & evocation Scaling: Unlocks powers at specific paladin levels. Level‑Based Progression: Level 1–4: Dawn‑Touched Aegis: Functions as +1 radiant armor, Constant soft golden glow (bright light 10 ft.), Undead within 10 ft. take 1 radiant damage per round, Wielder gains +1 sacred bonus on saves vs. undead abilities, Wielder gains +2 sacred bonus vs. fear. Level 5–8: Armor of the First Light
+
+Prerequisites: Good Alignment Only - Paladin Level Based
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/f58589ee5aa040e0a1162d22e2e05632
+
+========================================
+
+Dagger of Venom
+---------------
+Category: Weapon
+Type: Dagger
+Hands: Held
+Damage: 1d4 Piercing
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Piercing
+
+Description:
+This black +1 dagger has a serrated edge. It allows the wielder to use a poison effect (as the spell, save DC 14) upon a creature struck by the blade once per day. The wielder can decide to use the power after he has struck. Doing so is a free action, but the poison effect must be invoked in the same round that the dagger strikes.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Earl
+Link: https://app.campaign-logger.com/campaign-entries/1361ab7aa97d46f89a56c536cf998b53
+
+========================================
+
+Dagger of Whispered Venom
+-------------------------
+Category: Magic Item
+Type: Weapon
+Hands: Held
+Damage: 1d4 +2
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Piercing
+
+Description:
+A matte obsidian blade with a faint violet sheen. The hilt is wrapped in dark leather, and the pommel bears a stylized serpent coiled around a crescent moon. When drawn, the dagger emits a soft whisper only the wielder can hear. Venomous Whisper (2/day): As a free action before attacking, the wielder may invoke the dagger’s venomous enchantment: Target must make a Fortitude save (DC 15) or take 1d6 poison damage and suffer –2 to attack rolls for 1 round, Undead are immune to poison but take 1d4 necrotic damage instead. Silent Edge: Grants +2 competence bonus to Move Silently and Sleight of Hand, When drawn, the dagger muffles ambient sound within 5 ft (non-magical only). Shadow Flicker (1/day): As a swift action, the wielder may teleport up to 10 ft to a space they can see, leaving behind a brief shadow afterimage. Must be used immediately after a successful melee attack.
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/7f006530cfc04adb8fd5ae7631501fa7
+
+========================================
+
+Elixir of Soul Renewal
+----------------------
+Category: Magic Item
+Type: Potion
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+The Elixir of Soul Renewal (15th Lvl) restores deep soul damage, repairing both physical and metaphysical harm. Restores all ability damage to any ability score, Restores 1d4 points of ability drain (you choose which ability), Removes fatigue, Removes exhaustion, Removes negative levels (up to 2 temporary negative levels), Grants +4 sacred bonus on all saving throws for 10 minutes, Grants +10 temporary hit points for 1 hour
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/6229c21f74f04ab2822506bd09686a06
+
+========================================
+
+Everfresh Picnic Basket
+-----------------------
+Category: Magic Item
+Type: Container
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Appearance: A sturdy, handwoven basket with a sun‑motif clasp and soft linen lining. When opened, it emits a faint aroma of herbs and baked bread. The interior always feels cool and dry. Daily Meal (Su): Once per day, the basket produces a complete meal for 15 creatures: Includes bread, fruit, cheese, and a warm drink (tea, broth, or cider), The meal is nutritious, satisfying, and counts as a full day’s sustenance, The food vanishes if not consumed within 1 hour. Hospitality Aura: Allies within 10 ft gain +1 morale bonus on saves vs fatigue and fear while the basket is open, Allies gain 1d6 Hit Points back after eating the meal, The aura lasts for 10 minutes after the meal is served. Flavor Shift (1/week): The basket can be attuned to a region or deity: Alters the meal’s flavor and ingredients to match local cuisine or divine symbolism, Examples: desert dates and goat cheese (solar deity), mushroom stew and berry wine (nature deity)
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/642a26c25e414d3bbe192c95f49b7aac
+
+========================================
+
+Gallina Actus Wand
+------------------
+Category: Magic Item
+Type: Wand
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This wand is made from a chicken foot and part of the leg. You hold the leg and point the foot at the spell recipient. The wand creates a Scare Spell cast at 6th level. The wand has 10 charges at the time it is found.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Zach
+Link: https://app.campaign-logger.com/campaign-entries/c64ed3ab91dd4877baefc7678cef9ca2
+
+========================================
+
+Gauntlets of the Solar Grasp
+----------------------------
+Category: Magic Item
+Type: Armor
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Polished aurichalcum gauntlets with etched sun‑rays along the fingers and a central ankh embossed across the back of the hands. When clenched, the ankh glows with a soft golden light. When striking undead, the glow flares violently. **MECHANICAL BENEFITS ** Passive Effects: +2 sacred bonus to Strength checks and melee damage vs undead, Unarmed strikes count as holy and deal +1d6 radiant to undead, Touch spells gain +10 ft range when cast through the gauntlets, Detect undead within 30 ft as a warm pulse through the palms. Solar Grasp (2/day): As a standard action, the wearer may reach out and unleash radiant energy through their palm: Target undead within 30 ft takes 3d6 radiant damage (Will half), If the undead fails its save, it is dazzled for 1 round, If the target is incorporeal, it takes full damage despite resistances. Sun‑Strike Channeling (1/day): When casting a touch‑based spell (e.g., Cure Wounds, Dispel Evil), the wearer may channel it through a melee weapon strike: Make a melee attack, On hit, deal weapon damage + spell effect, Undead struck take +2d6 radiant and suffer –2 to saves vs the spell.
+
+Prerequisites: N/A
+Discovery Location: Zegtreg Forest
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/logs/5994980ea3b0479b861bc0e314d22ca5/tags/item/gauntlets%20of%20the%20solar%20grasp
+
+========================================
+
+Gladius Acutissimi
+------------------
+Category: Weapon
+Type: Short Sword
+Hands: One-Handed
+Damage: +2/+2 1d6
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Piercing
+
+Description:
+N/A.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Ken
+Link: https://app.campaign-logger.com/campaign-entries/b58da245d81b468a8d604330e7d6d3ff
+
+========================================
+
+Handy Haversack
+---------------
+Category: Magic Item
+Type: Container
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A backpack of this sort appears to be well made, well used, and quite ordinary. It is constructed of finely tanned leather, and the straps have brass hardware and buckles. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds. While such storage is useful enough, the pack has an even greater power in addition. When the wearer reaches into it for a specific item, that item is always on top. Thus, no digging around and fumbling is ever necessary to find what a haversack contains. Retrieving any specific item from a haversack is a move action, but it does not provoke the attacks of opportunity that retrieving a stored item usually does.
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/820aece80ca442db84cc7e07621d25bf
+
+========================================
+
+Heal Potion
+-----------
+Category: Magic Item
+Type: Consumable
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This heals the character back to their full hit points.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Alex
+Link: https://app.campaign-logger.com/campaign-entries/ed82bef0abf54ace81bb34e5623ea03e
+
+========================================
+
+Helm of the Vigilant Mind
+-------------------------
+Category: Magic Item
+Type: Armor
+Hands: Worn
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A smooth, close‑fitting helm of polished steel, engraved with a subtle pattern resembling an open eye. When danger approaches, the eye motif glimmers faintly. Vigilance (Ex): The wearer gains a +2 competence bonus on Spot and Listen checks. Danger Sense (Su): Once per day, as an immediate action, the wearer may gain a +4 insight bonus on a single Reflex save or AC vs. one attack. Mind‑Ward (Su): The wearer gains a +1 resistance bonus on Will saves against mind‑affecting effects (Stacks with a cloak of resistance because it’s a different bonus type.)
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/f5a259e41d7e4efab5b4c1df1ae945b9
+
+========================================
+
+Incantamentum Accelerare Rod
+----------------------------
+Category: Magic Item
+Type: Rod
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Rod of Metamagic, Quicken - The wielder can cast up to three spells per day that are quickened as though using the Quicken Spell feat.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Keith
+Link: https://app.campaign-logger.com/campaign-entries/a03d399527a4435ea194d9403a1d102c
+
+========================================
+
+Inimicus Conterens
+------------------
+Category: Weapon
+Type: Great Sword
+Hands: Two-Handed
+Damage: +1/+1 2d6
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Slashing
+
+Description:
+N/A.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Lisa
+Link: https://app.campaign-logger.com/campaign-entries/b58da245d81b468a8d604330e7d6d3ff
+
+========================================
+
+Jar of Healing Salve
+--------------------
+Category: Magic Item
+Type: Consumable
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Rod of Metamagic, Quicken - TA single application of healing salve smeared across a wound heals 1d8+1 points of damage. A double application heals 2d8+3 points of damage. A triple application heals 3d8+5 points of damage. No matter how much salve is used, each application takes a standard action to apply. A 3-inch-diameter, 2-inch-deep jar holds enough salve for ten single applications.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Roger
+Link: https://app.campaign-logger.com/campaign-entries/d78b4a6450c54a55b79a907aaa7080b2
+
+========================================
+
+Lacta Alea
+----------
+Category: Weapon
+Type: Short Sword
+Hands: One-Handed
+Damage: +2/+2 1d6
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Slashing
+
+Description:
+N/A.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Alex
+Link: https://app.campaign-logger.com/campaign-entries/dd53687993894ceea0d37dca0eb8daf4
+
+========================================
+
+Lute of the Dawn
+----------------
+Category: Magic Item
+Type: Instrument
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Let the sun sing through your strings. A radiant instrument crafted from sun‑blessed cedar and strung with threads of golden light. Its melodies stir courage, dispel shadows, and awaken divine memory.
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/f88538abd4614c8e9e301a8dc6ff060a
+
+========================================
+
+Mana Bread
+----------
+Category: Magic Item
+Type: Consumable
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+When the bread is consumed it will restore all spells for the spell caster (Wizard or Cleric) back to the begging of the that day. Thus, they have the full complement of spells, but they are what was selected for that day.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Al
+Link: https://app.campaign-logger.com/campaign-entries/bcbe71ee8bd04a908a990a646c7e6f6c
+
+========================================
+
+Mithril Chain Shirt +2
+----------------------
+Category: Magic Item
+Type: Armor
+Hands: Chest
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Armor Bonus: +6 (+4 Base, +2 Enchant), Max Dex Bonus: +4, Armor Check Penalty: 0, Arcane Spell Failure: 10%, Speed: 30 ft. (no penalty), Weight: 12.5 lb., Type: Light armor
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/76f3d7c9cb58473eba39b0305aad0505
+
+========================================
+
+Necklace of Fireballs Type 1
+----------------------------
+Category: Magic Item
+Type: Amulet
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This device is a golden chain from which hang a number of golden spheres. The spheres are detachable by the wearer (and only by the wearer), who can easily hurl them up to a 70-foot distance. When a sphere arrives at the end of its trajectory, it bursts as a magic fireball (DC 14). The number of spheres on each type of necklace, and their respective Hit Dice of fireball damage, are as follows: It has 1)5d6 & 2)3d6 beads The more dice of damage a sphere deals, the bigger it is. If the necklace is being worn or carried by a character who fails a saving throw against a magic fire attack, the item must make a saving throw as well (with a bonus of +7). If the necklace fails to save, all of its remaining spheres detonate simultaneously. Caster Level: 11; Prerequisites: Craft Wondrous Item, fireball; Weight: 2 lbs.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Earl
+Link: https://app.campaign-logger.com/campaign-entries/0fcb779c668a4c5681031904a9953f0b
+
+========================================
+
+Palla Charismatis
+-----------------
+Category: Armor
+Type: Cloak
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Cloak of Charisma - This lightweight and fashionable cloak has a highly decorative silver trim. When in a character’s possession, it adds a +4, orenhancement bonus to her Charisma score.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Stefan
+Link: https://app.campaign-logger.com/campaign-entries/a9f746e10e934b9eab39ca828eb0d76c
+
+========================================
+
+Periapt of Wound Closure
+------------------------
+Category: Magic Item
+Type: Necklace
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This stone is bright red and dangles on a gold chain. The wearer of this periapt automatically becomes stable if his hit points drop to between -1 and -9 inclusive. The periapt doubles the wearer’s normal rate of healing or allows normal healing of wounds that would not do so normally. Hit point damage that involves bleeding is negated for the wearer of the periapt, but he is still susceptible to damage from bleeding that causes Constitution loss, such as that dealt by a wounding weapon.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Lori
+Link: https://app.campaign-logger.com/campaign-entries/6cb0b603ce934bfcb25c510497e80609
+
+========================================
+
+Potion of Blinking
+------------------
+Category: Consumable
+Type: Potion
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+ (7th Level Caster) You “blink” back and forth between the Material Plane and the Ethereal Plane. You look as though you’re winking in and out of reality very quickly and at random. Blinking has several effects, as follows. Physical attacks against you have a 50% miss chance, and the Blind-Fight feat doesn’t help opponents, since you’re ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment). If the attacker can see invisible creatures, the miss chance is also only 20%. (For an attacker who can both see and strike ethereal creatures, there is no miss chance.) Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike. Any individually targeted spell has a 50% chance to fail against you while you’re blinking unless your attacker can target invisible, ethereal creatures. Your own spells have a 20% chance to activate just as you go ethereal, in which case they typically do not affect the Material Plane. While blinking, you take only half damage from area attacks (but full damage from those that extend onto the Ethereal Plane). You strike as an invisible creature (with a +2 bonus on attack rolls), denying your target any Dexterity bonus to AC. You take only half damage from falling, since you fall only while you are material. While blinking, you can step through (but not see through) solid objects. For each 5 feet of solid material you walk through, there is a 50% chance that you become material. If this occurs, you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet so traveled. You can move at only three-quarters speed (because movement on the Ethereal Plane is at half speed, and you spend about half your time there and half your time material.) Since you spend about half your time on the Ethereal Plane, you can see and even attack ethereal creatures. You interact with ethereal creatures roughly the same way you interact with material ones. An ethereal creature is invisible, incorporeal, and capable of moving in any direction, even up or down. As an incorporeal creature, you can move through solid objects, including living creatures. An ethereal creature can see and hear the Material Plane, but everything looks gray and insubstantial. Sight and hearing on the Material Plane are limited to 60 feet.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Alex
+Link: https://app.campaign-logger.com/campaign-entries/2a7336c8dc074196a40dc92282e33231
+
+========================================
+
+Potion of Bull Strength
+-----------------------
+Category: Consumable
+Type: Potion
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 2
+Owner: Kristen, N/A
+Link: https://app.campaign-logger.com/campaign-entries/f868e87d4e7e4472ad56b58b0cf0dae7
+
+========================================
+
+Potion of Cure Serious Wounds
+-----------------------------
+Category: Consumable
+Type: Potion
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This spell functions like cure light wounds, except that it cures 3d8 points of damage +1 point per caster level (maximum +15).
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 2
+Owner: Daniel, Scott
+Link: https://app.campaign-logger.com/campaign-entries/4bf1dc3b16c14f4eab3acd483840d430
+
+========================================
+
+Potion of Greater Vital Essence
+-------------------------------
+Category: Magic Item
+Type: Potion
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Drinking a Greater Vital Essence (11th Lvl) restores lost Constitution, both ability damage and ability drain. Restores 1d4+2 Constitution damage, Restores 1 point of Constitution drain, Removes fatigue, Removes exhaustion (downgraded to fatigue), Grants +4 enhancement bonus to Constitution for *10 minutes
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/4fd3be243d9145b6924bfe4b54dd4ffb
+
+========================================
+
+Potion of Heroism
+-----------------
+Category: Magic Item
+Type: Consumable
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This potion grants the drinker a +2 competence bonus to attacks, saves, and skill checks for 1 hour.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/91564c73c7cb40ff82a88e0bdbf01a92
+
+========================================
+
+Potion of Hiding
+----------------
+Category: Magic Item
+Type: Consumable
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A character drinking this potion gains a +10 competence bonus to Hide checks for 1 hour.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/9efc7b3b0647458595ed1786d9b9b16a
+
+========================================
+
+Potion of Invisibility
+----------------------
+Category: Consumable
+Type: Potion
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+The creature or object touched becomes invisible, vanishing from sight, even from darkvision. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so. Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible. Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as stepping in a puddle). The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. (Exactly who is a foe depends on the invisible character’s perceptions.) Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Kristen
+Link: https://app.campaign-logger.com/campaign-entries/24384061fffe409b87203c19faed7062
+
+========================================
+
+Potion of Sun Ward Oil
+----------------------
+Category: Consumable
+Type: Potion
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
++1 sacred AC; +2 saves vs undead
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/e4364d6bc59e4f3f87ac3c86676e32c5
+
+========================================
+
+Potion of Vital Essence
+-----------------------
+Category: Magic Item
+Type: Potion
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+(5th Lvl) Restores 1d4+1 Constitution damage. Grants +2 enhancement bonus to Constitution for 10 minutes. If the drinker is undead, the bonus becomes +2 turn resistance instead
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/5e1a74c0ce7d45318efd93743557962c
+
+========================================
+
+Rope of the Clever Coil
+-----------------------
+Category: Magic Item
+Type: Item
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A tightly braided rope of pale gray fibers, each strand threaded with faint silver runes. When held, the rope feels warm and subtly shifts as if anticipating use. Animated Coil (Su) As a standard action, the wielder may command the rope to: Tie itself Untie itself Wrap around an object or creature Form a loop, harness, or knot The rope moves up to 20 ft. per round while animated. Grapplebind (Su) Once per encounter, the rope can attempt to bind a creature within 20 ft: Treat as a +8 grapple check On success, the target is entangled Escape Artist or Strength DC 18 to break free Rope takes no damage from struggling Sure‑Hold (Ex) The rope can support up to 1,000 lb without risk of snapping. Memory Knot (Su) The rope can “remember” up to three knots. When commanded, it instantly shifts into one of its stored configurations.
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/d2d718baf2dc4a4ea46dbb9e8dfe8936
+
+========================================
+
+Scroll Tubes Of Holding
+-----------------------
+Category: Magic Item
+Type: Tube
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+The tube will hold 10 scrolls and can have the scroll be summoned forth by thought to read, appearing in your hand for reading the same round.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 2
+Owner: Al, Zach
+Link: https://app.campaign-logger.com/campaign-entries/5020758ca42c47338b4647967aa9a235
+
+========================================
+
+Sephulchral Gate Scroll 1
+-------------------------
+Category: Magic Item
+Type: Scroll
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Bull strength, Cure Moderate Wounds X2, Hold Person, Resist Energy, Shield Another
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/19858d56048c452c84a25131fa7af6ca
+
+========================================
+
+Shield Of Mercy
+---------------
+Category: Armor
+Type: Shield
+Hands: One-Handed
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+This finely crafted shield is engraved with the image of a holy warrior healing a wounded beggar. A shield of mercy functions as a +1 heavy steel shield and also allows you to channel your destructive power into healing. You can expend a smite attempt (such as from a paladin’s smite evil class feature or the granted power of the Destruction domain) to heal a creature by touch. The touched creature is healed of a number of points of damage equal to the extra damage that you would have dealt with the smite attack. For example, a 10th-level paladin could expend one use of her smite evil ability to heal 10 points of damage. If you also wear a magic item that grants an enhancement bonus to your Wisdom score, you add the item’s bonus to the amount of damage healed by the shield of mercy. For example, if the 10th-level paladin described above also wore a Periapt of Wisdom +2, each use of smite evil she expended would heal 12 points of damage. (5th level caster)
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Ken
+Link: https://app.campaign-logger.com/campaign-entries/56ff0cdaf29e4df28427e8a911b85a01
+
+========================================
+
+Shield of the Dawn Seeker
+-------------------------
+Category: Magic Item
+Type: Heavy Shield
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A broad shield of aurichalcum and white‑steel, shaped like a rising sun. The central boss is a stylized ankh whose loop glows softly. When undead draw near, the shield brightens like a sunrise breaking through fog. Aegis of the Dawn‑Seeker (Standard Relic): +2 holy heavy shield, Grants +1 sacred AC, Grants +2 sacred bonus on saves vs fear, death effects, and necromancy, Undead striking the wielder take 1d6 radiant damage (once per encounter). PASSIVE ABILITIES: Radiant Bulwark: The wielder gains resistance 5 to necrotic (or negative energy). Sun‑Ward Aura (10 ft): Allies gain +1 sacred bonus to saves vs fear. ACTIVE ABILITY (1/day): Solar Reprisal: A burst of dawnlight erupts from the shield. 15‑ft cone, 2d6 radiant damage (Ref half), Undead take 3d6 and must save or be dazzled 1d4 rounds, Allies in the cone gain +1 AC for 1 round
+
+Prerequisites: Attunement: Paladin, Cleric, or any Good‑aligned divine warrior. 
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/44ea410e460d4eaba76f07d4fb58893b
+
+========================================
+
+Solar Bastion of the Dawn - Shield
+----------------------------------
+Category: Magic Item
+Type: Heavy Shield
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+A broad, gleaming shield shaped like a rising sun. The central boss is a radiant ankh, and the rim is etched with hieroglyphic prayers. When raised in defense, the shield emits a soft golden glow that intensifies near undead. Passive Effects: +2 holy shieldm +1 sacred AC, +2 sacred bonus on saves vs undead effects. Radiant Reprisal (1/day): As an immediate action when struck by an undead: Reduce damage by 5, Attacker takes 2d6 radiant, Allies within 10 ft gain +1 AC for 1 round. Sun‑Ward Aura (10 ft radius) 1/Day: Allies gain +1 sacred bonus to saves vs undead, Allies gain +1 AC, Allies gain 3d6 temporary Hite Points, All last for 5 rounds.
+
+Prerequisites: Paladin, Cleric, or any Good‑aligned divine warrior
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/f5d157a711c74eacb33feffed433e269
+
+========================================
+
+Solis Gladius
+-------------
+Category: Weapon
+Type: Bastard Sword
+Hands: Two-Handed
+Damage: +2/+2 1d10 (+4 vs Evil, double damage vs Negative Energy Plane creatures)
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Slashing
+
+Description:
+Sun Blade: This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. (In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword.) Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, Weapon Focus and Weapon Specialization in short sword and bastard sword apply equally, but the benefits of those feats do not stack. In normal combat, the glowing golden blade of the weapon is equal to a +2 bastard sword. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and x3 on a critical hit instead of the usual x2). The blade also has a special sunlight power. Once per day, the wielder can swing the blade vigorously above her head while speaking a command word. The sunblade then sheds a bright yellow radiance that is like full daylight. The radiance begins shining in a 10-foot radius around the sword wielder and extends outward at 5 feet per round for 10 rounds thereafter, to create a globe of light with a 60-foot radius. When the wielder stops swinging, the radiance fades to a dim glow that persists for another minute before disappearing entirely. All sun blades are of good alignment, and any evil creature attempting to wield one gains one negative level. The negative level remains as long as the sword is in hand and disappears when the sword is no longer wielded. This negative level never results in actual level loss, but it cannot be overcome in any way (including restoration spells) while the sword is wielded.
+
+Prerequisites: Proficiency with bastard sword or short sword.
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Heather
+Link: https://app.campaign-logger.com/campaign-entries/65a9ade3419142b8a94791ec64bdc653
+
+========================================
+
+Solstice Aegis, Blade of the Dawnbound
+--------------------------------------
+Category: Magic Item
+Type: Longsword
+Hands: Held
+Damage: 1d8 + 1 +d6 radiant vs evil
+Range: Melee
+Magical: True
+Crit: 19-20/x2
+Damage Type: Slashing
+
+Description:
+Scaling Trigger: Character level. Appearance: A longblade of polished silver-steel, its surface gleaming like morning frost. The fuller glows faintly with the light of sunrise, a golden hue that intensifies as the wielder’s virtue deepens. From hilt to tip, spiraling runes etched in celestial script shift subtly with each level of attunement — radiant prayers that respond to divine alignment. The crossguard is shaped like twin wings of dawnlight, flaring outward in stylized arcs. The grip is wrapped in sun‑blessed leather, reinforced with braided gold thread, and capped with a pommel shaped like a rising sun. When drawn, the air around the blade warms, and motes of light drift from its edge like dust caught in morning rays. LEVEL‑BASED PROGRESSION: Level 5 — Dormant Light: The sword has awakened but remains gentle, like the first rays of dawn. Weapon Stats: +1 holy longsword, +1d6 radiant vs evil. Passive Abilities: Aura of Courage (5 ft): allies +1 vs fear, Radiant Touch: heal 1d8 once per short rest. Active (1/day): Sunflare Strike: On hit, +1d6 radiant; target saves or is dazzled 1 round. Level 8 — Awakened Dawn.
+
+Prerequisites: Attunement: Paladin, Crusader, or any Good‑aligned divine warrior. 
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/a6d8284c99a447099319dba601aa03e3
+
+========================================
+
+Staff of the Dawn-Rebuker
+-------------------------
+Category: Magic Item
+Type: Staff
+Hands: Held
+Damage: 1d6+1
+Range: Melee
+Magical: True
+Crit: 20x2
+Damage Type: Bludgeoning
+
+Description:
+Description: A radiant quarterstaff forged from pale sunwood and banded with golden aurichalcum veins. The shaft is smooth but etched with faint, glowing script — solar prayers and necromantic wards written in a forgotten dialect of the Dawn-Seeker order. These runes shimmer softly in daylight and pulse with intensity when undead draw near. The upper third of the staff flares into a stylized sunburst cage, within which floats a crystal of dawnfire — a semi-transparent orb that glows with inner light. When the staff is activated, this orb emits radiant pulses that ripple outward like solar flares. Near the grip, the staff bears a radiant reservoir: a cluster of embedded sunstones that dim or brighten depending on how many charges remain. The grip itself is wrapped in braided leather from a desert lion, reinforced with silver thread and capped with a miniature ankh pommel, symbolizing divine rebuke and radiant judgment. When wielded in battle, the staff leaves faint trails of light with each swing, and its spells manifest as beams, bursts, or waves of golden energy. Undead struck by its Radiant Spark recoil as if scorched by sunlight, and necromantic effects flicker and fade under its influence. Level-Based Progression: Level 5 — Dormant State: +1 quarterstaff. Sun‑Sense: Glows softly when undead are within 60 ft. Radiant Spark: 1/day, deal 1d8 radiant to undead on melee hit. Spell Charges (30): Disrupt Undead (1 charge), Light (at will), Level 8 — Awakened State.
+
+Prerequisites: Attunement: Can be used by any spellcaster
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/53f821a176c549b49b55075b693d3346
+
+========================================
+
+Sun-Sigil Brooch
+----------------
+Category: Magic Item
+Type: Brooch
+Hands: Neck
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Appearance: A polished gold brooch shaped like a miniature sun‑disc with an ankh at its center. The rays are etched with tiny hieroglyphic prayers. Passive Effects: +1 sacred bonus to AC, +2 sacred bonus on saves vs fear, death effects, and necromancy, Undead within 10 ft take 1 radiant damage at the start of your turn. Emits soft light (10 ft) when undead are within 30 ft. Radiant Safeguard (1/day): As an immediate action when you are struck by an undead creature: Reduce the damage by 5, your AC increases +2 for 4 rounds vs undead. Solar Mandate (1/day): A burst of divine authority radiates outward, 20‑ft radius, 3 rounds: Allies gain +2 sacred bonus to attack rolls and saving throws, Undead suffer –2 to attack rolls, saves, and turn resistance, Magical darkness up to 3rd level is dispelled
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/0885a723ac914db58e58d72d4c0529f0
+
+========================================
+
+Sunstone Dawn Choir Bead
+------------------------
+Category: Magic Item
+Type: Bead
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Description: A Sunstone is a divine focus crystal infused with the essence of dawn. Crafted by priests of Ra, Horus, Seeker, and Concelus, these beads are sacred tools used to combat undead corruption and restore balance to the world. Each bead is polished to a warm amber glow, etched with solar glyphs and sacred hieroglyphs that shimmer faintly in sunlight. When activated, the bead emits a resonant chime — a harmonic pulse that echoes the celestial music of sunrise. This sound bolsters allies and weakens undead, pushing back the veil of darkness with radiant force. Effect: Once per day, emit a resonant chime that grants allies within 20 ft: +1 attack, +1 saves, Duration: 3 rounds, Bonus: Undead must save or take –1 to Will saves for 1 round.
+
+Prerequisites: N/A
+Discovery Location: Grove of Whispers
+Quantity: 1
+Owner: 
+Link: https://app.campaign-logger.com/campaign-entries/3be7a3ee909242b984abae6b2aa908fa
+
+========================================
+
+Tuere Minorem
+-------------
+Category: Magic Item
+Type: Ring
+Hands: N/A
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
++1 Ring of Protection.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Scott
+Link: https://app.campaign-logger.com/campaign-entries/9fb8a8d21fa4446089394dafe924acb5
+
+========================================
+
+Virga Splendoris
+----------------
+Category: Magic Item
+Type: Rod
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Rod of Splendor: The possessor of this rod gains a +4 enhancement bonus to her Charisma score for as long as she holds or carries the item. Once per day, the rod creates and garbs her in clothing of the finest fabrics, plus adornments of furs and jewels. Apparel created by the magic of the rod remains in existence for 12 hours. However, if the possessor attempts to sell or give away any part of it, to use it for a spell component, or the like, all the apparel immediately disappears. The same applies if any of it is forcibly taken from her. The value of noble garb created by the rod ranges from 7,000 to 10,000 gp (1d4+6 x 1,000 gp)-1,000 gp for the fabric alone, 5,000 gp for the furs, and the rest for the jewel trim (maximum of twenty gems, maximum value 200 gp each). In addition, the rod has a second special power, usable once per month. Upon command, it creates a palatial tent-a huge pavilion of silk 60 feet across. Inside the tent are temporary furnishings and food suitable to the splendor of the pavilion and sufficient to entertain as many as one hundred persons. The tent and its trappings last for one day. At the end of that time, the tent and all objects associated with it (including any items that were taken out of the tent) disappear.
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Al
+Link: https://app.campaign-logger.com/campaign-entries/c24285641c6740e1aa5d61f0bdd6cbdf
+
+========================================
+
+Wraiththorn's Spellbook
+-----------------------
+Category: Magic Item
+Type: Spellbook
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+0-Level Spells: Acid Splash, Detect Magic, Read Magic, Disrupt Undead - 1st Level Spells: Shield, Magic Missiles, Mage Armor, Burning Hands, Sunstroke - 2nd level Spells: Prot From Arrows, Resist Energy, See Invis, Scorching Ray, Levitate - 3rd Level Spells: Dispel Magic, Hold Person, Fireball
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Zach
+Link: https://app.campaign-logger.com/campaign-entries/227bbbb588464098a05691ef1d6a96d0
+
+========================================
+
+Wraiththorn Scroll 1
+--------------------
+Category: Magic Item
+Type: Scroll
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Keen Edge (3rd Level), Slow (3rd Level), Tongues (3rd Level)
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Al
+Link: https://app.campaign-logger.com/campaign-entries/49abe0aad8cb452ca4ff66c53c31af24
+
+========================================
+
+Wraiththorn Scroll 2
+--------------------
+Category: Magic Item
+Type: Scroll
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Bull Strength (2nd Level), Cat's Grace (2nd Level), Ghost Touch Armor (2nd Level), Blur (2nd Level), Mirror Image (2nd Level), Command Undead (2nd Level)
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Al
+Link: https://app.campaign-logger.com/campaign-entries/f4469b1ec7f14b8fbbdcc9f68d421bbb
+
+========================================
+
+Wraiththorn Scroll 3
+--------------------
+Category: Magic Item
+Type: Scroll
+Hands: Held
+Damage: N/A
+Range: N/A
+Magical: True
+Crit: N/A
+Damage Type: N/A
+
+Description:
+Mage Armor (1st Level), True Strike (1st Level), Burning Hands (1st Level), Feather Fall (1st Level)
+
+Prerequisites: N/A
+Discovery Location: Ancient Ruins
+Quantity: 1
+Owner: Al
+Link: https://app.campaign-logger.com/campaign-entries/1e03dc0a1631444094ac75b120c2a0bf
+
+========================================
+

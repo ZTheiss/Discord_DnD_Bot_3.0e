@@ -208,3 +208,8 @@ Fetched player log from Campaign Logger API.
 Fetched loot divvy summary from latest adventure.
 Fetched player log from Campaign Logger API.
 Fetched loot divvy summary from latest adventure.
+Lookup command invoked for Spell: aidN/A
+Fetched player log from Campaign Logger API.
+Fetched loot divvy summary from latest adventure.
+Lookup command invoked for Spell: magic circle against evilN/A
+Lookup command invoked for Spell: protection from evilN/A
